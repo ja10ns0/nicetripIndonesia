@@ -1,6 +1,25 @@
-#map {
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 0 20px;
+}
+
+.header {
+  height: 52px;
   width: 100%;
-  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#map {
+  background-color: grey;
+  width: 100%;
+  height: 50%;
+  border-radius: 18px;
 }
 
 #changeDay {
@@ -11,14 +30,23 @@
   position: relative;
   top: -54px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.info {
+  margin: 20px 0;
+}
+.info__day {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.info #info__planning .stage {
+  display: flex;
+  margin: 20px 0;
+}
+.info #info__planning .stage span {
+  margin-right: 12px;
+}/*# sourceMappingURL=styles.css.map */

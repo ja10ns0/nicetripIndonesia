@@ -1,0 +1,134 @@
+
+    [{
+        "order": 1,
+        "date": "30 de Mayo",
+        "locations": [
+            {
+                "label": "Jakarta Airport",
+                "lat": -6.19138433712882, 
+                "lng": 106.8440013947889,
+                "type": "airport"
+            },
+            {
+                "label": "Yogjakarta Airport",
+                "lat": -7.7956781393307955,
+                "lng": 110.37015555608066,
+                "type": "airport"
+            },
+            {
+                "label": "The Phoenix Hotel Yogyakarta",
+                "lat": -7.782447304764076,
+                "lng":  110.36846368463078,
+                "type": "hotel"
+            },
+            {
+                "label": "Ratu Boko",
+                "lat": -7.744917827384563,
+                "lng": 110.48291270045232,
+                "type": "monument"
+            }
+        ]
+    },
+    {
+        "order": 2,
+        "date": "31 de Mayo",
+        "locations": [
+            {
+                "label": "Palacio del Sultán",
+                "lat": -7.805119743700079,
+                "lng": 110.36429429510987,
+                "type": "monument"
+            },
+            {
+                "label": "Taman Sari - Castillo del Agua",
+                "lat": -7.809869271095012,
+                "lng": 110.35942286262961,
+                "type": "monument"
+            },
+            {
+                "label": "Candi Prambanan",
+                "lat": -7.751124497830895, 
+                "lng": 110.49140329882025,
+                "type": "monument"
+            }
+        ]
+    },
+    {
+        "order": 3,
+        "date": "1 de Junio",
+        "locations": [
+            {
+                "label": "Candi Borobudur",
+                "lat": -7.607570714185953,
+                "lng": 110.20371374641041,
+                "type": "monument"
+            },
+            {
+                "label": "Pueblo de Candirejo",
+                "lat": -7.623251159134602,
+                "lng":  110.22875848731222,
+                "type": "town"
+            },
+            {
+                "label": "Pueblo de Kampung Pelangi",
+                "lat": -7.766349882578281, 
+                "lng": 110.35777653331552,
+                "type": "monument"
+            },
+            {
+                "label": "Semarang: Gumaya Towers 5* - Deluxe Room",
+                "lat": -6.9777307911666195,
+                "lng": 110.42015344798519,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 4,
+        "date": "2 de Junio",
+        "locations": [
+            {
+                "label": "¿Semarang Airport?",
+                "lat": -6.977358041848934,
+                "lng": 110.3773177525397,
+                "type": "airport"
+            },
+            {
+                "label": "¿Iskandar Airport?",
+                "lat": -2.7008304225587465, 
+                "lng":  111.66956125864924,
+                "type": "airport"
+            },
+            {
+                "label": "Puerto de Kumai",
+                "lat": -2.739347242200113,
+                "lng": 111.7285905560935,
+                "type": "seaport"
+            },
+            {
+                "label": "¿Tanjung Harapan o Taman Nasional Tanjung Puting?",
+                "lat": -3.048116072007129,
+                "lng": 111.91752128216078,
+                "type": "nature"
+            }
+        ]
+    },
+    {
+        "order": 5,
+        "date": "3 de Junio",
+        "locations": [
+            {
+                "label": "Campamento Tanggui",
+                "lat": -2.7902110821293764,
+                "lng": 111.87825720174392,
+                "type": "nature"
+            },
+            {
+                "label": "Campamento Leakey,",
+                "lat": -2.757202526989297, 
+                "lng":  111.94363216228776,
+                "type": "nature"
+            }
+        ]
+    }
+]

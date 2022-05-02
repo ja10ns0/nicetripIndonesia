@@ -8,12 +8,32 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script type="module" src="./index.js"></script>
+    <script async type="module" src="index.js"></script>
+    <script id="template-info-planning" type="text/template">
+        <div class="stage">
+            <span>{{order}}</span>
+            <div class="">{{label}}</div>
+        </div>
+    </script>
 </head>
 <body>
+    <div class="header">
+        <span>Indonesia</span>
+        <button>i</button>
+    </div>
     <div id="map"></div>
-    <div id="changeDay">
-        go to borneo
+    <div class="info">
+        <div class="info__day">
+            <button id="prev"><<</button>
+            <span id="date">Día 1</span>
+            <button id="next">>></button>
+        </div>
+        <div id="info__planning">
+            <div class="stage">
+                <span>0</span>
+                <div class="">Jakarta Airport</div>
+            </div>
+        </div>
     </div>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwUY8CdCAJaYfILe8CQz4bC-zGYgIz9NQ&callback=initMap"></script>
 </body>
