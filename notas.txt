@@ -4,3 +4,10 @@ Yogyakarta
 Ratu Boko
 Hotel: The Phoenix 5* - Deluxe Legacy Room
 
+Tipografía
+Fondo
+Iconos
+markers
+Popup
+Resaltar marker on click
+Customizar mapa

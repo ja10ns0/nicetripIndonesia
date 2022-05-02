@@ -130,5 +130,347 @@
                 "type": "nature"
             }
         ]
+    },
+    {
+        "order": 6,
+        "date": "4 de Junio",
+        "locations": [
+            {
+                "label": "Puerto de Kumai",
+                "lat": -2.739347242200113,
+                "lng": 111.7285905560935,
+                "type": "seaport"
+            },
+            {
+                "label": "¿Iskandar Airport?",
+                "lat": -2.7008304225587465, 
+                "lng":  111.66956125864924,
+                "type": "airport"
+            },
+            {
+                "label": "Aeropuerto Internacional Juanda - Surabaya",
+                "lat": -7.374945176428305,  
+                "lng":  112.78629379421304,
+                "type": "airport"
+            },
+            {
+                "label": "Hotel Jiwa Jawa Bromo",
+                "lat": -7.916364635929152, 
+                "lng":  112.98536846923825,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 7,
+        "date": "5 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Jiwa Jawa Bromo",
+                "lat": -7.916364635929152, 
+                "lng":  112.98536846923825,
+                "type": "hotel"
+            },
+            {
+                "label": "Mountain View - Puncak B29/B30",
+                "lat": -7.955991775229175, 
+                "lng":  112.99466595743309,
+                "type": "nature"
+            },
+            {
+                "label": "Subida al cráter del volcán Bromo",
+                "lat": -7.9400831963465555,   
+                "lng":  112.95253159955611,
+                "type": "nature view"
+            },
+            {
+                "label": "Hotel Jiwa Jawa Bromo",
+                "lat": -7.916364635929152, 
+                "lng":  112.98536846923825,
+                "type": "hotel"
+            },
+            {
+                "label": "Hotel Jiwa Jawa Ijen",
+                "lat": -8.174944218640254, 
+                "lng":  114.25980874225704,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 8,
+        "date": "6 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Jiwa Jawa Ijen",
+                "lat": -8.174944218640254, 
+                "lng":  114.25980874225704,
+                "type": "hotel"
+            },
+            {
+                "label": "Aldea de Licin",
+                "lat": -8.191803973666898,
+                "lng":  114.26557777891443,
+                "type": "town"
+            },
+            {
+                "label": "Subida al cráter del volcán Ijen",
+                "lat": -8.062930957232398, 
+                "lng":  114.24605743144006,
+                "type": "nature"
+            },
+            {
+                "label": "Hotel Jiwa Jawa Ijen",
+                "lat": -8.174944218640254, 
+                "lng":  114.25980874225704,
+                "type": "hotel"
+            },
+            {
+                "label": "Puerto de Banyuwangui",
+                "lat": -8.142067990312652,
+                "lng":  114.39959373939601,
+                "type": "seaport"
+            },
+            {
+                "label": "Puerto de Bali",
+                "lat": -8.160753804993353,
+                "lng":  114.43684194587603,
+                "type": "seaport"
+            },
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 9,
+        "date": "7 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 10,
+        "date": "8 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            },
+            {
+                "label": "Templo Taman Ayun",
+                "lat": -8.541511284480464,
+                "lng":  115.17261144793842,
+                "type": "monument"
+            },
+            {
+                "label": "Jatiluwih",
+                "lat": -8.37001278643232,
+                "lng": 115.13137199807699,
+                "type": "nature view"
+            },
+            {
+                "label": "Templo Ulun Danu Bratan",
+                "lat": -8.274862180027393,
+                "lng":  115.16686631342125,
+                "type": "monument"
+            },
+            {
+                "label": "Pura Tanah Lot",
+                "lat": -8.620893615363547,
+                "lng":   115.08689970760427,
+                "type": "monument"
+            },
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 11,
+        "date": "9 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            },
+            {
+                "label": "Terrazas de Tegallalang",
+                "lat": -8.433828037727798,
+                "lng":  115.27927835574957,
+                "type": "nature view"
+            },
+            {
+                "label": "Manantial Tirta Empul",
+                "lat": -8.415512754311544,
+                "lng":  115.31518613087853,
+                "type": "monument"
+            },
+            {
+                "label": "Templo Kehen",
+                "lat": -8.441718505015237,
+                "lng": 115.35988582691333,
+                "type": "monument"
+            },
+            {
+                "label": "Pueblo de Penglipuran,",
+                "lat": -8.42203503126277,
+                "lng":  115.35929526924077,
+                "type": "town"
+            },
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 12,
+        "date": "10 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 13,
+        "date": "11 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 14,
+        "date": "12 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Tejaprana Resort 4*",
+                "lat": -8.410779600722787,
+                "lng":  115.2697622801923,
+                "type": "hotel"
+            },
+            {
+                "label": "Puerto de ¿Benoa Denpasar Selatan?",
+                "lat": -8.737327060121828,
+                "lng":  115.21256169762106,
+                "type": "seaport"
+            },
+            {
+                "label": "Hotel Adiwana Warnakali",
+                "lat": -8.684153112035068,
+                "lng":  115.48289398270795,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 15,
+        "date": "13 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Adiwana Warnakali",
+                "lat": -8.684153112035068,
+                "lng":  115.48289398270795,
+                "type": "hotel"
+            },
+            {
+                "label": "Angel´s Billabong",
+                "lat": -8.733439350316624,
+                "lng":  115.44898017348508,
+                "type": "nature view"
+            },
+            {
+                "label": "Broken Beach",
+                "lat": -8.732667322186591,
+                "lng": 115.45080988771343,
+                "type": "nature"
+            },
+            {
+                "label": "Kelingking Beach",
+                "lat": -8.750142602578734,
+                "lng": 115.47261106921621,
+                "type": "nature"
+            },
+            {
+                "label": "Crystal Beach",
+                "lat": -8.715370879865969,
+                "lng": 115.45918936921612,
+                "type": "nature"
+            }
+        ]
+    },
+    {
+        "order": 16,
+        "date": "14 de Junio",
+        "locations": [
+            {
+                "label": "Hotel Adiwana Warnakali",
+                "lat": -8.684153112035068,
+                "lng":  115.48289398270795,
+                "type": "hotel"
+            },
+            {
+                "label": "Maison Aurelia 4*",
+                "lat": -8.695404855754841,
+                "lng": 115.26354696807951,
+                "type": "hotel"
+            }
+        ]
+    },
+    {
+        "order": 17,
+        "date": "15 de Junio",
+        "locations": [
+            {
+                "label": "Aeropuerto de Komodo",
+                "lat": -8.488310499844845,
+                "lng": 119.8874530557218,
+                "type": "hotel"
+            },
+            {
+                "label": "Muelle de Labuan Bajo",
+                "lat": -8.491715342319099,
+                "lng":  119.87562628691695,
+                "type": "seaport"
+            },
+            {
+                "label": "Isla Menjarite ¿?",
+                "lat": -8.547912430885166,
+                "lng":  119.81490385802964,
+                "type": "nature"
+            },
+            {
+                "label": "Isla Kalong",
+                "lat": -8.61054050586639,
+                "lng":  119.48635467116385,
+                "type": "nature"
+            }
+        ]
     }
 ]

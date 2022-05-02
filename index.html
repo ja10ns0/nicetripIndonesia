@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script async type="module" src="index.js"></script>
     <script id="template-info-planning" type="text/template">
@@ -17,16 +18,19 @@
     </script>
 </head>
 <body>
-    <div class="header">
+    <!-- <div class="header">
         <span>Indonesia</span>
         <button>i</button>
-    </div>
+    </div> -->
     <div id="map"></div>
     <div class="info">
         <div class="info__day">
-            <button id="prev"><<</button>
-            <span id="date">Día 1</span>
-            <button id="next">>></button>
+            <span id="prev" class="material-icons">chevron_left</span>
+            <div class="info__day--wrapper">
+                <span id="day"></span>
+                <span id="date"></span>
+            </div>
+            <span id="next" class="material-icons">chevron_right</span>
         </div>
         <div id="info__planning">
             <div class="stage">

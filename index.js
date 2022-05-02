@@ -13,11 +13,12 @@ function setMarkers(day) {
   
   var bounds = new google.maps.LatLngBounds;
 
-  day['locations'].forEach(location => {
+  day['locations'].forEach((location, index) => {
     let marker = new google.maps.Marker({
       position: location,
       map: map,
-      title: location.name
+      title: location.name,
+      label: '' + (index + 1)
     });
     bounds.extend(new google.maps.LatLng(location));    
     markers.push(marker);
@@ -26,8 +27,10 @@ function setMarkers(day) {
   map.fitBounds(bounds);
 
   // Update info (day)
+  var infoDay = document.querySelector('#day');
+  infoDay.innerHTML = "Día " + day['order'];
   var infoDate = document.querySelector('#date');
-  infoDate.innerHTML = "Día " + day['order'] + " - " + day['date'];
+  infoDate.innerHTML = day['date'];
   // Update info (planning)
   // Cache of the template
   var template = document.getElementById("template-info-planning");
@@ -69,6 +72,7 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: arrDay[0]['locations'][0],
     zoom: 6,
+    disableDefaultUI: true
   });
 
   // Set markers for day 1
