@@ -8,20 +8,15 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script async type="module" src="index.js"></script>
     <script id="template-info-planning" type="text/template">
-        <div class="stage">
+        <div data-order-location="{{order}}" class="stage">
             <span>{{order}}</span>
             <div class="">{{label}}</div>
         </div>
     </script>
 </head>
 <body>
-    <!-- <div class="header">
-        <span>Indonesia</span>
-        <button>i</button>
-    </div> -->
     <div id="map"></div>
     <div class="info">
         <div class="info__day">
@@ -36,6 +31,20 @@
             <div class="stage">
                 <span>0</span>
                 <div class="">Jakarta Airport</div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-content__cover">
+
+            </div>
+            <div class="modal-content__main">
+                <p id="modal-text">Some text in the Modal..</p>
+
+            </div>
+            <div class="modal-content__footer">
+                <span id="close" class="material-icons">close</span>
             </div>
         </div>
     </div>

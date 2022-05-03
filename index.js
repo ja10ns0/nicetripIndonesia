@@ -7,10 +7,9 @@ var map;
 
 var markers = [];
 
-var selectedDay = 0;
+var selectedDay;
 
 function setMarkers(day) {
-  
   var bounds = new google.maps.LatLngBounds;
 
   day['locations'].forEach((location, index) => {
@@ -26,6 +25,42 @@ function setMarkers(day) {
 
   map.fitBounds(bounds);
 
+  updateInfo(day, configModal);
+
+}
+
+function configModal(param) {
+  console.log('conf');
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var stages = document.querySelectorAll('.stage');
+  stages.forEach((stage, day) => {
+    var orderLocation = stage.getAttribute('data-order-location');
+    stage.addEventListener('click', function(event) {
+      modal.style.display = "block";
+      modal.querySelector('#modal-text').innerHTML = arrDay[selectedDay]['locations'][orderLocation - 1]['label'];
+    })
+  })
+
+  // Get the <span> element that closes the modal
+  var span = modal.querySelector("#close");
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+}
+
+function updateInfo(day, callback) {
   // Update info (day)
   var infoDay = document.querySelector('#day');
   infoDay.innerHTML = "Día " + day['order'];
@@ -45,29 +80,26 @@ function setMarkers(day) {
   });
   // Replace the HTML of #list with final HTML
   document.getElementById("info__planning").innerHTML = infoPlanning;
+
+  if (callback && typeof callback === 'function') {
+    callback();
+  }
 }
 
 function moveDay(param) {
-
-  console.log('markers', markers);
   // Loop through markers and set map to null for each
   for (var i=0; i<markers.length; i++) {
       markers[i].setMap(null);
   }
-  
   // Reset the markers array
   markers = [];
-  console.log('selected day', selectedDay);
   selectedDay = selectedDay + param;
-  console.log('selected day mow', selectedDay);
-  
   // Call set markers to re-add markers
   setMarkers(arrDay[selectedDay]);
-  
 }
 
 function initMap() {
-
+  selectedDay = 0;
   // Initilize map centered at Jakarta
   map = new google.maps.Map(document.getElementById("map"), {
     center: arrDay[0]['locations'][0],
