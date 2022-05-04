@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <script async type="module" src="index.js"></script>
     <script id="template-info-planning" type="text/template">
-        <div data-order-location="{{order}}" class="stage">
+        <div data-order-location="{{order}}" class="stage text_small">
             <span>{{order}}</span>
+            <span class="material-icons">{{type}}</span>
             <div class="">{{label}}</div>
         </div>
     </script>
@@ -22,8 +23,8 @@
         <div class="info__day">
             <span id="prev" class="material-icons">chevron_left</span>
             <div class="info__day--wrapper">
-                <span id="day"></span>
-                <span id="date"></span>
+                <h5 id="day"></h5>
+                <p id="date"></p>
             </div>
             <span id="next" class="material-icons">chevron_right</span>
         </div>

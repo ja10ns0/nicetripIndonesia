@@ -1,5 +1,6 @@
 
 import data from "./data.json" assert { type: "json" };
+// import locations from "./locations.json" assert { type: "json" };
 
 var arrDay = JSON.parse(JSON.stringify(data));
 
@@ -76,6 +77,7 @@ function updateInfo(day, callback) {
   // Loop through dataObject
   day['locations'].forEach(function (location, index) {
     infoPlanning += templateHtml.replace(/{{order}}/g, index + 1)
+                                .replace(/{{type}}/g, location["type"])
                                 .replace(/{{label}}/g, location["label"]);
   });
   // Replace the HTML of #list with final HTML

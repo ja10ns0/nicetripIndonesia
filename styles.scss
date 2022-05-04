@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+@import "./fonts.scss";
+@import "./modal.scss";
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -48,19 +50,14 @@ body {
         flex-direction: column;
         align-items: center;
         #day {
-            font-size: 20px;
             font-weight: bold;
             margin-bottom: 8px;
-        }
-        #date {
-            font-size: 14px;
-
         }
     }
     &__day {
         display: flex;
         justify-content: space-between;
-        margin: 20px 0 44px 0;
+        margin: 20px 0;
         align-items: center;
         > span {
             background-color: white;
@@ -74,80 +71,11 @@ body {
         .stage {
             cursor: pointer;
             display: flex;
-            margin: 32px 0;
+            margin: 20px 0;
+            align-items: center;
             span {
                 margin-right: 12px;
             }
         }
     }
 }
-
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(77, 75, 75, 0.75); /* Black w/ opacity */
-
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    -webkit-box-shadow: 2px 1px 12px 2px rgb(24 18 18 / 57%); 
-    box-shadow: 2px 1px 12px 2px rgb(24 18 18 / 57%);
-    margin: 10vh auto; /* 15% from the top and centered */
-    border-radius: 24px;
-    width: 80vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    &__cover {
-        background-color: #efefef;
-        height: 50vw;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-    &__main {
-        padding: 20px;
-        flex: 1;
-        #modal-text {
-            font-size: 20px;
-            font-weight: bold;
-        }
-    }
-    &__footer {
-        span {
-            -webkit-box-shadow: 1px 1px 8px 2px rgb(24 18 18 / 57%); 
-            box-shadow: 1px 1px 8px 2px rgb(24 18 18 / 57%);
-            background: #333;
-            color: white;
-            padding: 16px;
-            border-radius: 37px;
-            font-size: 24px;
-            float: right;
-            position: relative;
-            top: 15px;
-            right: -15px;
-        }
-    }
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
