@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <script async type="module" src="index.js"></script>
     <script id="template-info-planning" type="text/template">
-        <div data-order-location="{{order}}" class="stage text_small">
+        <div data-order-location="{{order}}" class="stage">
             <span>{{order}}</span>
             <span class="material-icons">{{type}}</span>
             <div class="">{{label}}</div>
+            <span class="material-icons">add</span>
         </div>
     </script>
 </head>
@@ -24,7 +25,7 @@
         <div class="info__day">
             <div class="wrapper">
                 <h6 id="day">dsd</h6>
-                <h5 id="island">Isla de Java</h5>
+                <h4 id="island">Isla de Java</h4>
                 <span id="date"></span>
             </div>
             <span id="prev" class="material-icons raised">chevron_left</span>

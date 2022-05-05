@@ -14,8 +14,8 @@ span#menu {
     top: 24px;
     right: 24px;
     z-index: 1;
-    background-color: rgba(51,51,51,0.5);
-    color: #333;
+    background-color: rgba(51, 51, 51, 0.3);
+    color: white;
 }
 #map {
     background-color: grey;
@@ -54,23 +54,32 @@ span#menu {
             }
             #island {
                 margin: 0;
+                font-weight: 800;
             }
         }
         display: flex;
         margin: 16px 0 0 0;
         align-items: center;
+        span#prev,span#next {
+            font-size: 32px;
+            border-radius: 32px;
+        }
         > span:last-child {
-            margin-left: 8px;
+            margin-left: 16px;
         }
     }
     #info__planning {
         .stage {
             cursor: pointer;
             display: flex;
-            margin: 20px 0;
+            margin: 24px 0;
             align-items: center;
             span {
                 margin-right: 12px;
+                &:last-child {
+                    margin-left: auto;
+                    font-size: 16px;
+                }
             }
         }
     }
