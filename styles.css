@@ -147,8 +147,9 @@ span#menu {
   top: 24px;
   right: 24px;
   z-index: 1;
-  background-color: rgba(51, 51, 51, 0.3);
-  color: white;
+  background-color: rgba(51, 51, 51, 0.2);
+  color: #333;
+  box-shadow: 0px 0px 8px 0px rgba(24, 18, 18, 0.57);
 }
 
 #map {
@@ -212,6 +213,12 @@ span#menu {
 .info #info__planning .stage span:last-child {
   margin-left: auto;
   font-size: 16px;
+}
+.info #info__planning .stage .label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 24px;
 }
 
 span.material-icons.raised {
