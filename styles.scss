@@ -4,6 +4,7 @@
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 body {
     // padding: 0 20px;
@@ -57,7 +58,7 @@ body {
     &__day {
         display: flex;
         justify-content: space-between;
-        margin: 20px 0;
+        margin: 16px 0 0 0;
         align-items: center;
         > span {
             background-color: white;

@@ -21,10 +21,10 @@
 .modal-content {
   background-color: #fefefe;
   box-shadow: 2px 1px 12px 2px rgba(24, 18, 18, 0.57);
-  margin: 2vh auto;
+  margin: 10% auto;
   border-radius: 24px;
-  width: 94vw;
-  height: 96vh;
+  width: 80%;
+  height: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -33,14 +33,26 @@
   height: 50vw;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  padding: 4px 4px 0 4px;
+}
+.modal-content__cover #img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 .modal-content__main {
   padding: 20px;
   flex: 1;
 }
-.modal-content__main #modal-text {
-  font-size: 20px;
-  font-weight: bold;
+.modal-content__main #p {
+  overflow-y: scroll;
+  text-align: justify;
+}
+.modal-content__footer {
+  height: 48px;
 }
 .modal-content__footer span {
   box-shadow: 1px 1px 8px 2px rgba(24, 18, 18, 0.57);
@@ -51,8 +63,8 @@
   font-size: 24px;
   float: right;
   position: relative;
-  top: -4px;
-  right: 4px;
+  top: 16px;
+  right: -16px;
 }
 
 /* The Close Button */

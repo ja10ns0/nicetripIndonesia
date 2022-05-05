@@ -11,3 +11,6 @@ markers
 Popup
 Resaltar marker on click
 Customizar mapa
+poner nombre de la Isla
+
+modal en % en vez de vh(problema en navegadores mobile)

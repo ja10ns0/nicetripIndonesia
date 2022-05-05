@@ -1,8 +1,11 @@
 
 import data from "./data.json" assert { type: "json" };
-// import locations from "./locations.json" assert { type: "json" };
+import locations from "./locations.json" assert { type: "json" };
 
 var arrDay = JSON.parse(JSON.stringify(data));
+var arrLocations = JSON.parse(JSON.stringify(locations));
+
+console.log('arrLOcations', arrLocations);
 
 var map;
 
@@ -41,7 +44,11 @@ function configModal(param) {
     var orderLocation = stage.getAttribute('data-order-location');
     stage.addEventListener('click', function(event) {
       modal.style.display = "block";
-      modal.querySelector('#modal-text').innerHTML = arrDay[selectedDay]['locations'][orderLocation - 1]['label'];
+      var location = arrLocations.find(loc => loc.id === arrDay[selectedDay]['locations'][orderLocation - 1]['id']);
+      console.log('a', arrLocations.find(loc => loc.id === arrDay[selectedDay]['locations'][orderLocation - 1]['id']).id);
+      modal.querySelector('#img').src = location['img'];
+      modal.querySelector('#title').innerHTML = location['title'];
+      modal.querySelector('#description').innerHTML = location['description'];
     })
   })
 
