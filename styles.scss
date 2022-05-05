@@ -9,13 +9,13 @@ html, body {
 body {
     // padding: 0 20px;
 }
-.header {
-    height: 52px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+span#menu {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 1;
+    background-color: rgba(51,51,51,0.5);
+    color: #333;
 }
 #map {
     background-color: grey;
@@ -46,26 +46,21 @@ body {
     background-color: white;
     -webkit-box-shadow: 4px 9px 11px 6px rgb(24 18 18 / 57%); 
     box-shadow: 4px 9px 11px 6px rgb(24 18 18 / 57%);
-    &__day--wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        #day {
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-    }
     &__day {
+        .wrapper {
+            margin-right: auto;
+            #day {
+
+            }
+            #island {
+                margin: 0;
+            }
+        }
         display: flex;
-        justify-content: space-between;
         margin: 16px 0 0 0;
         align-items: center;
-        > span {
-            background-color: white;
-            align-self: center;
-            padding: 10px;
-            border-radius: 22px;
-            box-shadow: 0px 0px 6px -2px rgb(24 18 18 / 57%);
+        > span:last-child {
+            margin-left: 8px;
         }
     }
     #info__planning {
@@ -79,4 +74,13 @@ body {
             }
         }
     }
+}
+
+span.material-icons.raised {
+    background-color: #333;
+    color: white;
+    align-self: center;
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 6px -2px rgb(24 18 18 / 57%);
 }

@@ -142,13 +142,13 @@ html, body {
   overflow: hidden;
 }
 
-.header {
-  height: 52px;
-  width: 100%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+span#menu {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #333;
 }
 
 #map {
@@ -181,27 +181,19 @@ html, body {
   background-color: white;
   box-shadow: 4px 9px 11px 6px rgba(24, 18, 18, 0.57);
 }
-.info__day--wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.info__day--wrapper #day {
-  font-weight: bold;
-  margin-bottom: 8px;
-}
 .info__day {
   display: flex;
-  justify-content: space-between;
   margin: 16px 0 0 0;
   align-items: center;
 }
-.info__day > span {
-  background-color: white;
-  align-self: center;
-  padding: 10px;
-  border-radius: 22px;
-  box-shadow: 0px 0px 6px -2px rgba(24, 18, 18, 0.57);
+.info__day .wrapper {
+  margin-right: auto;
+}
+.info__day .wrapper #island {
+  margin: 0;
+}
+.info__day > span:last-child {
+  margin-left: 8px;
 }
 .info #info__planning .stage {
   cursor: pointer;
@@ -211,4 +203,13 @@ html, body {
 }
 .info #info__planning .stage span {
   margin-right: 12px;
+}
+
+span.material-icons.raised {
+  background-color: #333;
+  color: white;
+  align-self: center;
+  padding: 10px;
+  border-radius: 22px;
+  box-shadow: 0px 0px 6px -2px rgba(24, 18, 18, 0.57);
 }/*# sourceMappingURL=styles.css.map */
