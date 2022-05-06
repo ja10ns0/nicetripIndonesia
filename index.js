@@ -16,12 +16,24 @@ var selectedDay;
 function setMarkers(day) {
   var bounds = new google.maps.LatLngBounds;
 
-  day['locations'].forEach((location, index) => {
+  day['locations'].forEach((location, i) => {
     let marker = new google.maps.Marker({
       position: location,
       map: map,
       title: location.name,
-      label: '' + (index + 1)
+      label: '' + (i + 1)
+    });
+    marker.addListener("click", () => {
+      console.log('a', i);
+      console.log('b', arrDay[selectedDay]['locations'][i + 1]);
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      modal.style.display = "block";
+      var location = arrLocations.find(loc => loc.id === arrDay[selectedDay]['locations'][i + 1]['id']);
+      console.log('a', arrLocations.find(loc => loc.id === arrDay[selectedDay]['locations'][i + 1]['id']).id);
+      modal.querySelector('#img').src = location['img'];
+      modal.querySelector('#title').innerHTML = location['title'];
+      modal.querySelector('#description').innerHTML = location['description'];
     });
     bounds.extend(new google.maps.LatLng(location));    
     markers.push(marker);
