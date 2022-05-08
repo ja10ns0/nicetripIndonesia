@@ -83,9 +83,11 @@ function configModal(param) {
 function updateInfo(day, callback) {
   // Update info (day)
   var infoDay = document.querySelector('#day');
-  infoDay.innerHTML = "Día " + day['order'];
   var infoDate = document.querySelector('#date');
+  var infoIsland = document.querySelector('#island');
+  infoDay.innerHTML = "Día " + day['order'];
   infoDate.innerHTML = day['date'];
+  infoIsland.innerHTML = day['island'];
   // Update info (planning)
   // Cache of the template
   var template = document.getElementById("template-info-planning");

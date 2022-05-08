@@ -22,5 +22,29 @@
         "title": "The Phoenix Hotel Yogyakarta",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
         "img": "assets/phoenix-hotel.jpg" 
+    },
+    {
+        "id": 5,
+        "title": "Palacio del Sultán",
+        "description":"Palacio del Sultán lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+        "img": "assets/palacio-sultan.jpg" 
+    },
+    {
+        "id": 6,
+        "title": "Taman Sari - Castillo del Agua",
+        "description":"Taman Sari - Castillo del Agua lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+        "img": "assets/taman-sari.jpg" 
+    },
+    {
+        "id": 7,
+        "title": "Candi Prambanan",
+        "description":"Candi Prambanan lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+        "img": "assets/candi-prambanan.jpg" 
+    },
+    {
+        "id": 8,
+        "title": "The Phoenix Hotel Yogyakarta",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+        "img": "assets/phoenix-hotel.jpg" 
     }
 ]
