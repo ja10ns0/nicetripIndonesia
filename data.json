@@ -95,21 +95,27 @@
                 "label": "Candi Borobudur",
                 "lat": -7.607570714185953,
                 "lng": 110.20371374641041,
-                "type": "temple_buddhist"
+                "type": "temple_buddhist",
+                "description":"Candi Borobudur lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/candi-borobudur.jpg"
             },
             {
                 "id": 10,
                 "label": "Pueblo de Candirejo",
                 "lat": -7.623251159134602,
                 "lng":  110.22875848731222,
-                "type": "holiday_village"
+                "type": "holiday_village",
+                "description":"Pueblo de Candirejo lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/candirejo.jpg"
             },
             {
                 "id": 11,
                 "label": "Pueblo de Kampung Pelangi",
                 "lat": -7.766349882578281, 
                 "lng": 110.35777653331552,
-                "type": "holiday_village"
+                "type": "holiday_village",
+                "description":"Pueblo de Kampung Pelangi lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/kampung-pelangi.jpg"
             },
             {
                 "id": 12,
