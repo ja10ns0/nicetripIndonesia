@@ -1,3 +1,24 @@
+// Create the script tag, set the appropriate attributes
+var script = document.createElement('script');
+script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCwUY8CdCAJaYfILe8CQz4bC-zGYgIz9NQ&callback=initMap"';
+script.defer = true;
+    
+// Attach your callback function to the `window` object
+window.initMap = function() {
+  selectedDay = 0;
+  // Initilize map centered at Jakarta
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: arrDay[0]['locations'][0],
+    zoom: 6,
+    disableDefaultUI: true
+  });
+
+  // Set markers for day 1
+  setMarkers(arrDay[selectedDay]);
+};
+    
+// Append the 'script' element to 'head'
+document.head.appendChild(script);
 
 import data from "./data.json" assert { type: "json" };
 import locations from "./locations.json" assert { type: "json" };
@@ -121,19 +142,19 @@ function moveDay(param) {
   setMarkers(arrDay[selectedDay]);
 }
 
-function initMap() {
-  selectedDay = 0;
-  // Initilize map centered at Jakarta
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: arrDay[0]['locations'][0],
-    zoom: 6,
-    disableDefaultUI: true
-  });
+// function initMap() {
+//   selectedDay = 0;
+//   // Initilize map centered at Jakarta
+//   map = new google.maps.Map(document.getElementById("map"), {
+//     center: arrDay[0]['locations'][0],
+//     zoom: 6,
+//     disableDefaultUI: true
+//   });
 
-  // Set markers for day 1
-  setMarkers(arrDay[selectedDay]);
+//   // Set markers for day 1
+//   setMarkers(arrDay[selectedDay]);
 
-}
+// }
 
 // Bind event listener on button to reload markers
 document.getElementById('next').addEventListener('click', function(){
@@ -143,4 +164,4 @@ document.getElementById('prev').addEventListener('click', function(){
   moveDay(-1);
 });
 
-window.initMap = initMap;
+// window.initMap = initMap;
