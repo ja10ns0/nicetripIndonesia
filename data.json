@@ -9,28 +9,36 @@
                 "label": "Jakarta Airport",
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
-                "type": "flight_takeoff"
+                "type": "flight_takeoff",
+                "description":"Jakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/jakarta-airport.jpg" 
             },
             {
                 "id": 2,
                 "label": "Yogjakarta Airport",
                 "lat": -7.7956781393307955,
                 "lng": 110.37015555608066,
-                "type": "flight_land"
+                "type": "flight_land",
+                "description":"Yogjakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/yogjakarta-airport.jpg" 
             },
             {
                 "id": 3,
                 "label": "Ratu Boko",
                 "lat": -7.744917827384563,
                 "lng": 110.48291270045232,
-                "type": "fort"
+                "type": "fort",
+                "description":"Ratu Boko lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/ratuboko.jpg"
             },
             {
                 "id": 4,
                 "label": "The Phoenix Hotel Yogyakarta",
                 "lat": -7.782447304764076,
                 "lng":  110.36846368463078,
-                "type": "hotel"
+                "type": "hotel",
+                "description":"The Phoenix Hotel Yogyakarta lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/phoenix-hotel.jpg"
             }
         ]
     },
@@ -44,28 +52,36 @@
                 "label": "Palacio del Sultán",
                 "lat": -7.805119743700079,
                 "lng": 110.36429429510987,
-                "type": "castle"
+                "type": "castle",
+                "description":"Palacio del Sultán lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/palacio-sultan.jpg"
             },
             {
                 "id": 6,
                 "label": "Taman Sari - Castillo del Agua",
                 "lat": -7.809869271095012,
                 "lng": 110.35942286262961,
-                "type": "castle"
+                "type": "castle",
+                "description":"Taman Sari - Castillo del Agua lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/taman-sari.jpg"
             },
             {
                 "id": 7,
                 "label": "Candi Prambanan",
                 "lat": -7.751124497830895, 
                 "lng": 110.49140329882025,
-                "type": "temple_hindu"
+                "type": "temple_hindu",
+                "description":"Candi Prambanan lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/candi-prambanan.jpg"
             },
             {
                 "id": 8,
                 "label": "The Phoenix Hotel Yogyakarta",
                 "lat": -7.782447304764076,
                 "lng":  110.36846368463078,
-                "type": "hotel"
+                "type": "hotel",
+                "description":"The Phoenix Hotel Yogyakarta lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/phoenix-hotel.jpg"
             }
         ]
     },

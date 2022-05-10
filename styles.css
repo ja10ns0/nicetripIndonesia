@@ -147,8 +147,8 @@ span#menu {
   top: 24px;
   right: 24px;
   z-index: 1;
-  background-color: rgba(218, 213, 213, 0.4);
-  color: white;
+  background-color: white;
+  color: #333;
   box-shadow: 0px 0px 8px 0px rgba(168, 164, 164, 0.57);
 }
 
@@ -188,7 +188,8 @@ span#menu {
   align-items: center;
 }
 .info__day .wrapper {
-  margin-right: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 .info__day .wrapper #island {
   margin: 0;
@@ -222,8 +223,8 @@ span#menu {
 }
 
 span.material-icons.raised {
-  background-color: #333;
-  color: white;
+  background-color: white;
+  color: #333;
   align-self: center;
   padding: 10px;
   border-radius: 22px;
