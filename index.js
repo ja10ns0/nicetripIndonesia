@@ -47,10 +47,10 @@ function setMarkers(day) {
       // Get the modal
       var modal = document.getElementById("myModal");
       modal.style.display = "block";
-      var location = arrLocations.find(loc => loc.id === arrDay[selectedDay]['locations'][i + 1]['id']);
-      console.log('a', arrLocations.find(loc => loc.id === arrDay[selectedDay]['locations'][i + 1]['id']).id);
+      var location = arrDay[selectedDay]['locations'][i];
+      console.log('location', location);
       modal.querySelector('#img').src = location['img'];
-      modal.querySelector('#title').innerHTML = location['title'];
+      modal.querySelector('#title').innerHTML = location['label'];
       modal.querySelector('#description').innerHTML = location['description'];
     });
     bounds.extend(new google.maps.LatLng(location));    
