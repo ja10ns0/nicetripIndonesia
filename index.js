@@ -43,7 +43,7 @@ function setMarkers(day) {
     });
     marker.addListener("click", () => {
       // Get the modal
-      var modal = document.getElementById("myModal");
+      var modal = document.getElementById("locationModal");
       modal.style.display = "block";
       var location = arrDay[selectedDay]['locations'][i];
       console.log('location', location);
@@ -57,13 +57,13 @@ function setMarkers(day) {
 
   map.fitBounds(bounds);
 
-  updateInfo(day, configModal);
+  updateInfo(day, configLocationModal);
 
 }
 
-function configModal(param) {
+function configLocationModal(param) {
   // Get the modal
-  var modal = document.getElementById("myModal");
+  var modal = document.getElementById("locationModal");
 
   // Get the button that opens the modal
   var stages = document.querySelectorAll('.stage');
@@ -143,22 +143,11 @@ document.getElementById('prev').addEventListener('click', function(){
   moveDay(-1);
 });
 
-// Sidebar
-const toggleBtn =document.querySelector('#menu');
-const closeBtn =document.querySelector('.close-btn');
-const sidebar =document.querySelector('.sidebar');
-toggleBtn.addEventListener('click', function(){
-  // using add and remove class
-  /*
-  if(sidebar.classList.contains('show-sidebar')){
-      sidebar.classList.remove('show-sidebar');
-  }else{
-      sidebar.classList.add('.show-sidebar');
-  }
-  */
+
+// infoModal
+const infoModal = document.getElementById('infoModal');
+infoModal.addEventListener('click', function(){
   //using toggle
-  sidebar.classList.toggle('show-sidebar');
-});
-closeBtn.addEventListener('click', function(){
-  sidebar.classList.remove('show-sidebar');
+  infoModal.classList.toggle('visible');
+  console.log('adsad', infoModal);
 });

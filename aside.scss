@@ -1,6 +1,6 @@
 
 .sidebar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -8,7 +8,6 @@
     background: #fff;
     box-shadow: hsl(360, 67%, 44%);
     transition: all 0.3s linear;
-    transform: translate(-100%);
     z-index: 2;
 }
 .show-sidebar {
