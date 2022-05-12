@@ -81,11 +81,12 @@
     height: 100%;
     background-color: white;
     position: absolute;
-    z-index: 3;
     top: 0;
-    opacity: 0;
     transition: all 350ms ease-out;
+    opacity: 0;
+    z-index: -1;
     &.visible {
+      z-index: 2;
       opacity: 1;
     }
   }

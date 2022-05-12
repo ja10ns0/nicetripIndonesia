@@ -145,9 +145,10 @@ document.getElementById('prev').addEventListener('click', function(){
 
 
 // infoModal
-const infoModal = document.getElementById('infoModal');
-infoModal.addEventListener('click', function(){
-  //using toggle
-  infoModal.classList.toggle('visible');
-  console.log('adsad', infoModal);
+let infoBtn = document.getElementById('info');
+let closeBtn = document.querySelector('button.close-btn');
+[infoBtn, closeBtn].forEach((elem) => {
+  elem.addEventListener('click', function(){
+    infoModal.classList.toggle('visible');
+  });
 });
