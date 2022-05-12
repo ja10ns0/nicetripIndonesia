@@ -19,8 +19,9 @@
     </script>
 </head>
 <body>
-    <span id="menu" class="material-icons raised">more_vert</span>
+    <!-- Map container -->
     <div id="map"></div>
+    <!-- Info container -->
     <div class="info">
         <div class="info__day">
             <span id="prev" class="material-icons raised">chevron_left</span>
@@ -38,6 +39,11 @@
             </div>
         </div>
     </div>
+    <!-- Options button -->
+    <button id="menu" class="btn-overlay">
+        <span class="material-icons raised">menu</span>
+    </button>
+    <!-- Modal window -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <div class="modal-content__cover">
@@ -54,5 +60,12 @@
             </div>
         </div>
     </div>
+    <!-- Aside -->
+    <aside class="sidebar">
+        <button class="close-btn">
+          <span class="material-icons raised">close</span>
+        </button>
+    </aside>
+    
 </body>
 </html>

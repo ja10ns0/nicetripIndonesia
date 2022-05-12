@@ -42,8 +42,6 @@ function setMarkers(day) {
       label: '' + (i + 1)
     });
     marker.addListener("click", () => {
-      console.log('a', i);
-      console.log('b', arrDay[selectedDay]['locations'][i + 1]);
       // Get the modal
       var modal = document.getElementById("myModal");
       modal.style.display = "block";
@@ -143,4 +141,24 @@ document.getElementById('next').addEventListener('click', function(){
 });
 document.getElementById('prev').addEventListener('click', function(){
   moveDay(-1);
+});
+
+// Sidebar
+const toggleBtn =document.querySelector('#menu');
+const closeBtn =document.querySelector('.close-btn');
+const sidebar =document.querySelector('.sidebar');
+toggleBtn.addEventListener('click', function(){
+  // using add and remove class
+  /*
+  if(sidebar.classList.contains('show-sidebar')){
+      sidebar.classList.remove('show-sidebar');
+  }else{
+      sidebar.classList.add('.show-sidebar');
+  }
+  */
+  //using toggle
+  sidebar.classList.toggle('show-sidebar');
+});
+closeBtn.addEventListener('click', function(){
+  sidebar.classList.remove('show-sidebar');
 });
