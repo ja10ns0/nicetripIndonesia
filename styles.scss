@@ -67,6 +67,7 @@ span#menu {
         span#prev,span#next {
             font-size: 32px;
             border-radius: 32px;
+            cursor: pointer;
         }
         > span:last-child {
             margin-left: 16px;

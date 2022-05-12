@@ -28,7 +28,7 @@
                 "lat": -7.744917827384563,
                 "lng": 110.48291270045232,
                 "type": "fort",
-                "description":"Ratu Boko lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Ratu Boko o el palacio de Ratu Boko es un sitio arqueológico ubicado en Java.Se encuentra en una meseta, a unos tres kilómetros al sur del complejo de templos de Prambanan en Yogyakarta, Indonesia. El nombre original de este sitio aún no está claro, sin embargo, los habitantes locales nombraron este sitio en honor al rey Boko, el legendario rey mencionado en el folclore de Roro Jonggrang.1​ En javanés, Ratu Baka significa «Rey cigüeña».\\nEl sitio cubre 16 hectáreas de dos aldeas (Dawung y Sambireja) de los pueblos de Bokoharjo y Prambanan, kabupaten de Sleman. En notable contraste con otros sitios del período clásico en Java Central y Yogyakarta, que son restos de templos, Ratu Boko muestra atributos de un sitio de ocupación o asentamiento, aunque se desconoce su función precisa.2​ Probablemente el sitio fuera un complejo palaciego que perteneció a los reyes de Sailendra o de Mataram que también construyeron templos esparcidos por la llanura de Kewu. El argumento se basa en el hecho de que este conjunto no era un templo ni un edificio de carácter religioso, sino un palacio fortificado que evidencia un remanente de murallas fortificadas y el foso seco de estructuras defensivas.3​ Los restos de asentamientos también se fundan en las cercanías de Ratu Boko. Este sitio está ubicado a 196 m sobre el nivel del mar, en el punto más alto del sitio, hay un pequeño pabellón desde el cual se puede ver una vista panorámica del templo de Prambanan con el monte Merapi como fondo",
                 "img": "assets/ratuboko.jpg"
             },
             {
@@ -111,8 +111,8 @@
             {
                 "id": 11,
                 "label": "Pueblo de Kampung Pelangi",
-                "lat": -7.766349882578281, 
-                "lng": 110.35777653331552,
+                "lat": -6.988316796390847, 
+                "lng": 110.40841565553559,
                 "type": "holiday_village",
                 "description":"Pueblo de Kampung Pelangi lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
                 "img": "assets/kampung-pelangi.jpg"
@@ -285,42 +285,52 @@
     {
         "order": 8,
         "date": "6 de Junio",
-        "island": " Java",
+        "island": "Java y Bali",
         "locations": [
             {
                 "id": 27,
                 "label": "Aldea de Licin",
                 "lat": -8.191803973666898,
                 "lng":  114.26557777891443,
-                "type": "holiday_village"
+                "type": "holiday_village",
+                "description":"Hotel Jiwa Jawa Ijen lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/licin-village.jpg"
             },
             {
                 "id": 28,
                 "label": "Subida al cráter del volcán Ijen",
                 "lat": -8.062930957232398, 
                 "lng":  114.24605743144006,
-                "type": "volcano"
+                "type": "volcano",
+                "description": "",
+                "img": "assets/ijen-crater.jpg"
             },
             {
                 "id": 29,
                 "label": "Puerto de Banyuwangui",
                 "lat": -8.142067990312652,
                 "lng":  114.39959373939601,
-                "type": "directions_boat"
+                "type": "directions_boat",
+                "description": "",
+                "img": "assets/banyuwangui-port.jpg"
             },
             {
                 "id": 30,
                 "label": "Puerto de Bali",
                 "lat": -8.160753804993353,
                 "lng":  114.43684194587603,
-                "type": "directions_boat"
+                "type": "directions_boat",
+                "description": "",
+                "img": "assets/gilimanuk-bali-port.jpg"
             },
             {
                 "id": 31,
                 "label": "Hotel Tejaprana Resort 4*",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/tejaprana-hotel.jpg"
             }
         ]
     },
@@ -334,7 +344,9 @@
                 "label": "Hotel Tejaprana Resort 4*",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/tejaprana-hotel.jpg"
             }
         ]
     },
@@ -348,35 +360,45 @@
                 "label": "Templo Taman Ayun",
                 "lat": -8.541511284480464,
                 "lng":  115.17261144793842,
-                "type": "temple_hindu"
+                "type": "temple_hindu",
+                "description": "",
+                "img": "assets/taman-ayun.jpg"
             },
             {
                 "id": 34,
                 "label": "Jatiluwih",
                 "lat": -8.37001278643232,
                 "lng": 115.13137199807699,
-                "type": "wallpaper"
+                "type": "wallpaper",
+                "description": "",
+                "img": "assets/jatiluwih.jpg"
             },
             {
                 "id": 35,
                 "label": "Templo Ulun Danu Bratan",
                 "lat": -8.274862180027393,
                 "lng":  115.16686631342125,
-                "type": "temple_hindu"
+                "type": "temple_hindu",
+                "description": "",
+                "img": "assets/ulun-danu.jpg"
             },
             {
                 "id": 36,
                 "label": "Pura Tanah Lot",
                 "lat": -8.620893615363547,
                 "lng":   115.08689970760427,
-                "type": "temple_hindu"
+                "type": "temple_hindu",
+                "description": "",
+                "img": "assets/tanah-lot.jpg"
             },
             {
                 "id": 37,
                 "label": "Hotel Tejaprana Resort 4*",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/tejaprana-hotel.jpg"
             }
         ]
     },
@@ -390,35 +412,45 @@
                 "label": "Terrazas de Tegallalang",
                 "lat": -8.433828037727798,
                 "lng":  115.27927835574957,
-                "type": "wallpaper"
+                "type": "wallpaper",
+                "description": "",
+                "img": "assets/tegalalang.jpg"
             },
             {
                 "id": 39,
                 "label": "Manantial Tirta Empul",
                 "lat": -8.415512754311544,
                 "lng":  115.31518613087853,
-                "type": "temple_hindu"
+                "type": "temple_hindu",
+                "description": "",
+                "img": "assets/tirta-empul.jpg"
             },
             {
                 "id": 40,
                 "label": "Templo Kehen",
                 "lat": -8.441718505015237,
                 "lng": 115.35988582691333,
-                "type": "temple_hindu"
+                "type": "temple_hindu",
+                "description": "",
+                "img": "assets/kehen-temple.jpg"
             },
             {
                 "id": 41,
                 "label": "Pueblo de Penglipuran",
                 "lat": -8.42203503126277,
                 "lng":  115.35929526924077,
-                "type": "holiday_village"
+                "type": "holiday_village",
+                "description": "",
+                "img": "assets/penglipuran-village.jpg"
             },
             {
                 "id": 42,
                 "label": "Hotel Tejaprana Resort 4*",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/tejaprana-hotel.jpg"
             }
         ]
     },
@@ -432,7 +464,9 @@
                 "label": "Hotel Tejaprana Resort 4*",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/tejaprana-hotel.jpg"
             }
         ]
     },
@@ -446,7 +480,9 @@
                 "label": "Hotel Tejaprana Resort 4*",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/tejaprana-hotel.jpg"
             }
         ]
     },
