@@ -14,3 +14,9 @@ Customizar mapa
 poner nombre de la Isla
 
 modal en % en vez de vh(problema en navegadores mobile)
+
+
+lombok:
+cascada de liutelek
+
+los torajana y su visión de la muerte

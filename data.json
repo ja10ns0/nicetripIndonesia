@@ -28,7 +28,7 @@
                 "lat": -7.744917827384563,
                 "lng": 110.48291270045232,
                 "type": "fort",
-                "description":"Ratu Boko o el palacio de Ratu Boko es un sitio arqueológico ubicado en Java.Se encuentra en una meseta, a unos tres kilómetros al sur del complejo de templos de Prambanan en Yogyakarta, Indonesia. El nombre original de este sitio aún no está claro, sin embargo, los habitantes locales nombraron este sitio en honor al rey Boko, el legendario rey mencionado en el folclore de Roro Jonggrang.1​ En javanés, Ratu Baka significa «Rey cigüeña».\\nEl sitio cubre 16 hectáreas de dos aldeas (Dawung y Sambireja) de los pueblos de Bokoharjo y Prambanan, kabupaten de Sleman. En notable contraste con otros sitios del período clásico en Java Central y Yogyakarta, que son restos de templos, Ratu Boko muestra atributos de un sitio de ocupación o asentamiento, aunque se desconoce su función precisa.2​ Probablemente el sitio fuera un complejo palaciego que perteneció a los reyes de Sailendra o de Mataram que también construyeron templos esparcidos por la llanura de Kewu. El argumento se basa en el hecho de que este conjunto no era un templo ni un edificio de carácter religioso, sino un palacio fortificado que evidencia un remanente de murallas fortificadas y el foso seco de estructuras defensivas.3​ Los restos de asentamientos también se fundan en las cercanías de Ratu Boko. Este sitio está ubicado a 196 m sobre el nivel del mar, en el punto más alto del sitio, hay un pequeño pabellón desde el cual se puede ver una vista panorámica del templo de Prambanan con el monte Merapi como fondo",
+                "description":"Conjunto arqueológico ubicado en Yogyakarta, a unos tres kilómetros al sur del complejo de Prambanan.\nEl sitio cubre 16 hectáreas de dos aldeas de los pueblos de Bokoharjo y Prambanan y su elevación de unos 196 m sobre el nivel del mar lo convierte en el punto más alto del sitio y desde el que se puede ver una vista panorámica del templo de Prambanan con el monte Merapi al fondo.\nEl nombre original y la función de este sitio no están claros, sin embargo los habitantes locales nombraron este sitio en honor al legendario rey Boko.",
                 "img": "assets/ratuboko.jpg"
             },
             {
@@ -53,7 +53,7 @@
                 "lat": -7.805119743700079,
                 "lng": 110.36429429510987,
                 "type": "castle",
-                "description":"Palacio del Sultán lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El Palacio del Sultán o Kraton de Yogyakarta es un conjunto palaciego donde vive el Sultán, heredero del título siguiendo la tradición.El conjunto no sólo está habitado por el Sultán ya que en la zona que ocupaban los jardines del Sultán se ha levantado un vecindario donde viven casi 30.000 personas.Este hecho, en lugar de restar romanticismo a la visita, le otorga un atractivo añadido, ya que de esta manera es posible combinar la visita histórica con una visión más actual de la ciudad; por ejemplo, picoteando entre los puestos de su mercado.Dentro lo que antiguamente fueran los terrenos del Palacio se encuentran salpicados diferentes ruinas y edificios, como el Castillo del Agua, que tras someterse a trabajos de restauración hoy día nos permiten recordar la época de esplendor del Sultanato.El Kraton de Yogyakarta hace también las veces de museo. En sus salas pueden contemplarse vestidos, mobiliario y otros objetos que ofrecen una visión muy amplia de la cultura de esta zona de la isla. De hecho, el propio edificio es un magnífico exponente de la arquitectura tradicional javanesa.",
                 "img": "assets/palacio-sultan.jpg"
             },
             {
@@ -62,7 +62,7 @@
                 "lat": -7.809869271095012,
                 "lng": 110.35942286262961,
                 "type": "castle",
-                "description":"Taman Sari - Castillo del Agua lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El Castillo del Agua o Tamán Sari es un complejo de palacios y piscinas utilizado en su origen por el sultán como zona de recreo. Sus paredes de color claro le dan un aire un tanto colonial lejos del títpico corte asiático o javanés.Con un aire un tanto colonial y un color claro en sus paredes, no es un edificio con el típico corte asiático ni tampoco javanés. Fue construido por un arquitecto portugués y se dice que tiene habitaciones secretas donde el sultán y su séquito disfrutaban de diferentes placeres.",
                 "img": "assets/taman-sari.jpg"
             },
             {
@@ -71,7 +71,7 @@
                 "lat": -7.751124497830895, 
                 "lng": 110.49140329882025,
                 "type": "temple_hindu",
-                "description":"Candi Prambanan lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Construido en el siglo X, este conjunto monumental es el más grande de los dedicados al culto de Siva en Indonesia. En medio del último de los recintos cuadrados concéntricos se alzan tres templos consagrados a cada una de las deidades principales del hinduismo: Siva, Visnú y Brahma. Estos santuarios están ornamentados con relieves ilustrativos de la epopeya del Ramayana. Junto a ellos se alzan otros tres templos dedicados a los animales que sirven de montura a esos dioses",
                 "img": "assets/candi-prambanan.jpg"
             },
             {
@@ -96,7 +96,7 @@
                 "lat": -7.607570714185953,
                 "lng": 110.20371374641041,
                 "type": "temple_buddhist",
-                "description":"Candi Borobudur lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El templo de Borobudur es una estupa budista con silueta piramidiforme construída entre los años 750 y 850 por los soberanos de la dinastía Sailendra. Es el templo budista más grande del mundo, consta de seis plataformas cuadradas coronadas por tres plataformas circulares y está decorado infinidad de paneles de relieve y numerosas estatuas de Buda.El monumento es un santuario y lugar de peregrinaje budista. El viaje de los peregrinos comienza en la base del monumento y continúa por un camino que lo rodea, mientras asciende hasta la cima a través de los tres niveles de la cosmología budista. Durante el viaje, el monumento guía a los peregrinos a través de un sistema de escaleras y corredores.La evidencia sugiere que Borobudur fue abandonado tras el siglo XIV con el ocaso de los reinos budistas e hindúes en Java, y la conversión de los isleños al Islam.2​ Fue descubierto en 1814 por Thomas Stamford Raffles, gobernador británico de Java. Desde entonces, Borobudur ha sido conservado mediante numerosas restauraciones. El proyecto de restauración más importante fue llevado a cabo entre 1975 y 1982 por el Gobierno de Indonesia y la Unesco, tras lo cual el monumento fue nombrado Patrimonio de la Humanidad.3​ Borobudur es aún utilizado como lugar de peregrinación, donde una vez al año los budistas de Indonesia celebran el Vesak en el monumento. Además, Borobudur es la atracción turística más visitada de Indonesia.",
                 "img": "assets/candi-borobudur.jpg"
             },
             {
@@ -105,7 +105,7 @@
                 "lat": -7.623251159134602,
                 "lng":  110.22875848731222,
                 "type": "holiday_village",
-                "description":"Pueblo de Candirejo lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Candirejo Village se encuentra en el distrito de Borobudur, a unos 3 kilómetros al sureste del templo de Borobudur en Magelang, Java Central. El pueblo se encuentra en medio de exuberantes campos verdes y selvas tropicales, y está poblado de gente amable. Se dice que Candirejo es un símbolo de la cultura javanesa donde los visitantes pueden experimentar y participar en una variedad de atracciones y actividades culturales. Muchas artesanías caseras y recuerdos también se hacen aquí, como camas, bancos y estanterías de bambú, y bolsas y esteras hechas de pandanus; todos los cuales están disponibles para su compra. La palabra Candirejo es una combinación de dos palabras javanesas: Candi y Rejo. Candi significa templo, pero también puede significar piedra, y Candirejo es una zona bastante pedregosa. La palabra Rejo significa fértil, por lo que cuando se juntó, Candirejo recibió su nombre como la tierra que estaba llena de piedras, pero que aún así seguía siendo fértil.",
                 "img": "assets/candirejo.jpg"
             },
             {
@@ -114,7 +114,7 @@
                 "lat": -6.988316796390847, 
                 "lng": 110.40841565553559,
                 "type": "holiday_village",
-                "description":"Pueblo de Kampung Pelangi lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Kampung Pelangi es un pequeño pueblo que cuenta con 232 casas y completamente pintado por sus habitantes transformándolo en un todo multicolor. Desde entonces, Kampung Pelangi es más una obra de arte en sí que un lugar en ruinas. Y lo que es mejor para el barrio, debido a este cambio extremo los turistas acuden a contemplar este arco iris que componen las viviendas en su conjunto, con mensajes e imágenes positivas que transmiten la alegría pintada en sus paredes.",
                 "img": "assets/kampung-pelangi.jpg"
             },
             {

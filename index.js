@@ -50,6 +50,7 @@ function setMarkers(day) {
       modal.querySelector('#img').src = location['img'];
       modal.querySelector('#title').innerHTML = location['label'];
       modal.querySelector('#description').innerHTML = location['description'];
+      console.log(JSON.parse(location['description']));
     });
     bounds.extend(new google.maps.LatLng(location));    
     markers.push(marker);
