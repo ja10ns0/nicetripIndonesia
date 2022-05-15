@@ -493,17 +493,21 @@
         "locations": [
             {
                 "id": 45,
-                "label": "Puerto de ¿Benoa Denpasar Selatan?",
+                "label": "Puerto de Benoa(Denpasar)?",
                 "lat": -8.737327060121828,
                 "lng":  115.21256169762106,
-                "type": "directions_boat"
+                "type": "directions_boat",
+                "description": "",
+                "img": "assets/benoa-port.jpg"
             },
             {
                 "id": 46,
                 "label": "Hotel Adiwana Warnakali",
                 "lat": -8.684153112035068,
                 "lng":  115.48289398270795,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/adiwaana-hotel.jpg"
             }
         ]
     },
@@ -517,140 +521,174 @@
                 "label": "Angel´s Billabong",
                 "lat": -8.733439350316624,
                 "lng":  115.44898017348508,
-                "type": "landslide"
+                "type": "landslide",
+                "description": "",
+                "img": "assets/angels-beach.jpg"
             },
             {
                 "id": 48,
                 "label": "Broken Beach",
                 "lat": -8.732667322186591,
                 "lng": 115.45080988771343,
-                "type": "beach_access"
+                "type": "beach_access",
+                "description": "",
+                "img": "assets/broken1-beach.jpg"
             },
             {
                 "id": 49,
                 "label": "Kelingking Beach",
                 "lat": -8.750142602578734,
                 "lng": 115.47261106921621,
-                "type": "beach_access"
+                "type": "beach_access",
+                "description": "",
+                "img": "assets/kelingking-beach.jpg"
             },
             {
                 "id": 50,
                 "label": "Crystal Beach",
                 "lat": -8.715370879865969,
                 "lng": 115.45918936921612,
-                "type": "beach_access"
+                "type": "beach_access",
+                "description": "",
+                "img": "assets/crystal-beach.jpg"
             },
             {
                 "id": 51,
                 "label": "Hotel Adiwana Warnakali",
                 "lat": -8.684153112035068,
                 "lng":  115.48289398270795,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/adiwaana-hotel.jpg"
             }
         ]
     },
     {
         "order": 16,
         "date": "14 de Junio",
-        "island": " Nusa Penida",
+        "island": "Isla de Bali",
         "locations": [
             {
                 "id": 52,
                 "label": "Maison Aurelia 4*",
                 "lat": -8.695404855754841,
                 "lng": 115.26354696807951,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/maison-hotel.jpg"
             }
         ]
     },
     {
         "order": 17,
         "date": "15 de Junio",
-        "island": " Flores",
+        "island": "Isla de Flores",
         "locations": [
             {
                 "id": 53,
                 "label": "¿?",
                 "lat": -8.488310499844845,
                 "lng": 119.8874530557218,
-                "type": "flight_takeoff"
+                "type": "flight_takeoff",
+                "description": "",
+                "img": ""
             },
             {
                 "id": 54,
                 "label": "Aeropuerto de Komodo",
                 "lat": -8.488310499844845,
                 "lng": 119.8874530557218,
-                "type": "flight_land"
+                "type": "flight_land",
+                "description": "",
+                "img": "assets/komodo-airport.jpg"
             },
             {
                 "id": 54,
                 "label": "Muelle de Labuan Bajo",
                 "lat": -8.491715342319099,
                 "lng":  119.87562628691695,
-                "type": "directions_boat"
+                "type": "directions_boat",
+                "description": "",
+                "img": "assets/labuan-port.jpg"
             },
             {
                 "id": 55,
-                "label": "Isla Menjarite ¿?",
+                "label": "Snorkeling en Isla Menjarite",
                 "lat": -8.547912430885166,
                 "lng":  119.81490385802964,
-                "type": "sailing"
+                "type": "sailing",
+                "description": "",
+                "img": "assets/menjarite-island.jpg"
             },
             {
                 "id": 56,
-                "label": "Isla Kalong",
+                "label": "Isla Kalong o del zorro volador",
                 "lat": -8.61054050586639,
                 "lng":  119.48635467116385,
-                "type": "sailing"
+                "type": "sailing",
+                "description": "",
+                "img": "assets/kalong2-island.jpg"
             },
             {
                 "id": 57,
                 "label": "Noche en barco tradicional",
                 "lat": -8.61054050586639,
                 "lng":  119.48635467116385,
-                "type": "houseboat"
+                "type": "houseboat",
+                "description": "",
+                "img": "assets/komodo-boat.jpg"
             }
         ]
     },
     {
         "order": 18,
         "date": "16 de Junio",
-        "island": " Komodo",
+        "island": "Komodo",
         "locations": [
             {
                 "id": 58,
-                "label": " Padar",
+                "label": "Trekking en Isla de Padar",
                 "lat": -8.651311316927162,
                 "lng": 119.58671910826523,
-                "type": "hiking"
+                "type": "hiking",
+                "description": "",
+                "img": "assets/padar-island.jpg"
             },
             {
                 "id": 59,
-                "label": " Komodo",
+                "label": "P.N Loh Liang(Komodo)",
                 "lat": -8.580021715786586,
                 "lng": 119.44140453637503,
-                "type": "pets"
+                "type": "pets",
+                "description": "",
+                "img": "assets/pn-komodo.jpg"
             },
             {
                 "id": 60,
                 "label": "Snorkeling en Pink Beach",
                 "lat": -8.653879843526756,
                 "lng":  119.55975708089674,
-                "type": "sailing"
+                "type": "sailing",
+                "description": "",
+                "img": "assets/pink-beach.jpg"
             },
             {
                 "id": 61,
                 "label": "Snorkeling en Manta Point",
                 "lat": -8.547716241381739,
                 "lng":  119.61749474234395,
-                "type": "sailing"
+                "type": "sailing",
+                "description": "",
+                "img": "assets/mantapoint-beach.jpg"
             },
             {
                 "id": 62,
                 "label": "Noche en barco tradicional",
                 "lat": -8.61054050586639,
                 "lng":  119.48635467116385,
-                "type": "houseboat"
+                "type": "houseboat",
+                "description": "",
+                "img": "assets/komodo-boat.jpg"
             }
         ]
     },
@@ -661,31 +699,39 @@
         "locations": [
             {
                 "id": 63,
-                "label": "Aeropuerto de Labuan Bajo",
+                "label": "Aeropuerto de Komodo",
                 "lat": -8.487847730477402,
                 "lng": 119.88732007812357,
-                "type": "flight_takeoff"
+                "type": "flight_takeoff",
+                "description": "",
+                "img": "assets/komodo-airport.jpg"
             },
             {
                 "id": 64,
-                "label": "Aeropuerto de Lombok",
+                "label": "Aeropuerto de Lombok(vía Denpasar)",
                 "lat": 116.10018111923976,
                 "lng": 116.10018111923976,
-                "type": "flight_land"
+                "type": "flight_land",
+                "description": "",
+                "img": "assets/lombok-airport.jpg"
             },
             {
                 "id": 65,
                 "label": "Puerto de Gili Air",
                 "lat": -8.363447962147617,
                 "lng":  116.08313047966512,
-                "type": "directions_boat"
+                "type": "directions_boat",
+                "description": "",
+                "img": "assets/giliair-port.jpg"
             },
             {
                 "id": 66,
                 "label": "Akasia Villa – One Bedroom Pool Villa",
                 "lat": -8.35388321302648,
                 "lng":  116.08312240047536,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/akasia-hotel.jpg"
             }
         ]
     },
@@ -696,66 +742,64 @@
         "locations": [
             {
                 "id": 67,
-                "label": "Aeropuerto de Labuan Bajo",
-                "lat": -8.487847730477402,
-                "lng": 119.88732007812357,
-                "type": "flight_takeoff"
-            },
-            {
-                "id": 68,
-                "label": "Aeropuerto de Lombok",
-                "lat": 116.10018111923976,
-                "lng": 116.10018111923976,
-                "type": "flight_land"
-            },
-            {
-                "id": 69,
-                "label": "Puerto de Gili Air",
-                "lat": -8.363447962147617,
-                "lng":  116.08313047966512,
-                "type": "directions_boat"
-            },
-            {
-                "id": 70,
                 "label": "Akasia Villa – One Bedroom Pool Villa",
                 "lat": -8.35388321302648,
                 "lng":  116.08312240047536,
-                "type": "hotel"
+                "type": "hotel",
+                "description": "",
+                "img": "assets/akasia-hotel.jpg"
             }
         ]
     },
     {
         "order": "24",
-        "date": "22 de Junio",
+        "date": "22-23 de Junio",
         "island": " Gili Air",
         "locations": [
             {
-                "id": 71,
+                "id": 68,
                 "label": "Puerto de Gili Air",
                 "lat": -8.363447962147617,
                 "lng":  116.08313047966512,
-                "type": "directions_boat"
+                "type": "directions_boat",
+                "description": "",
+                "img": "assets/giliair-port.jpg"
             },
             {
-                "id": 72,
+                "id": 69,
                 "label": "Aeropuerto de Lombok",
                 "lat": 116.10018111923976,
                 "lng": 116.10018111923976,
-                "type": "flight_takeoff"
+                "type": "flight_takeoff",
+                "description": "",
+                "img": "assets/lombok-airport.jpg"
             },
             {
-                "id": 73,
+                "id": 70,
                 "label": "Jakarta Airport",
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
-                "type": "flight_land"
+                "type": "flight_land",
+                "description":"Jakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/jakarta-airport.jpg"
             },
             {
-                "id": 74,
+                "id": 71,
                 "label": "Jakarta Airport",
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
-                "type": "flight_takeoff"
+                "type": "flight_takeoff",
+                "description":"Jakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/jakarta-airport.jpg"
+            },
+            {
+                "id": 72,
+                "label": "¡Rumahku!",
+                "lat": 43.370980721721374, 
+                "lng":  -8.39587754831988,
+                "type": "hotel",
+                "description": "",
+                "img": "assets/corunna.jpg"
             }
         ]
     }
