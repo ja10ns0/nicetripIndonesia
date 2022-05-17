@@ -82,7 +82,7 @@
     cursor: pointer;
   }
 
- #infoModal {
+ #modal-info {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -94,5 +94,32 @@
     &.visible {
       z-index: 2;
       opacity: 1;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid red;
+      span {
+        height: 48px;
+        width: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .title {
+        font-size: 20px;
+        margin-left: 12px;
+      }
+    }
+    .main {
+      .label {
+        font-size: 18px;
+      }
+      .description {
+        font-size: 16px;
+        margin: 4px 0 12px 0;
+        text-align: justify;
+      }
+      padding: 16px;
     }
   }

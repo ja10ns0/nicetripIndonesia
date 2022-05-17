@@ -21,7 +21,6 @@ window.initMap = function() {
 document.head.appendChild(script);
 
 import data from "./data.json" assert { type: "json" };
-import locations from "./locations.json" assert { type: "json" };
 
 var arrDay = JSON.parse(JSON.stringify(data));
 
@@ -147,9 +146,17 @@ document.getElementById('prev').addEventListener('click', function(){
 
 // infoModal
 let infoBtn = document.getElementById('info');
-let closeBtn = document.querySelector('button.close-btn');
-[infoBtn, closeBtn].forEach((elem) => {
-  elem.addEventListener('click', function(){
-    infoModal.classList.toggle('visible');
+infoBtn.addEventListener('click',() => {
+  console.log('selected day', selectedDay + 1);
+  var templateId = 'template-info-day-' + (selectedDay + 1); 
+  var template = document.getElementById(templateId);
+  var templateHtml = template.innerHTML;
+  console.log('s',templateHtml);
+  var modalInfo = document.getElementById('modal-info');
+  modalInfo.innerHTML = templateHtml;
+  modalInfo.classList.toggle('visible');
+  let backBtn = document.querySelector('span.btn-back');
+  backBtn.addEventListener('click',() => {
+    modalInfo.classList.toggle('visible');
   });
-});
+})
