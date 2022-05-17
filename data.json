@@ -76,12 +76,12 @@
             },
             {
                 "id": 8,
-                "label": "The Phoenix Hotel Yogyakarta",
-                "lat": -7.782447304764076,
-                "lng":  110.36846368463078,
+                "label": "Sarasvati Borobudur Hotel",
+                "lat": -7.606934016178857,
+                "lng":  -110.21055981855568,
                 "type": "hotel",
-                "description":"The Phoenix Hotel Yogyakarta lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
-                "img": "assets/phoenix-hotel.jpg"
+                "description":"Sarasvati Borobudur Hotellorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "img": "assets/sarasvati-hotel.jpg"
             }
         ]
     },
