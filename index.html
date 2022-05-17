@@ -100,9 +100,7 @@
                 visitaremos la colorida villa de Kampung Pelangi.
             </div>
             <div class="label">Alojamiento</div>
-            <div class="description">
-                Semarang: Gumaya Towers
-            </div>
+            <div class="description">Gumaya Towers Hotel</div>
         </div>
     </script>
     <!-- Dia 4 -->
@@ -198,9 +196,7 @@
                 luciérnagas y podéis disfrutar del espectáculo de sus luminiscencias.
             </div>
             <div class="label">Alojamiento</div>
-            <div class="description">
-                Noche a borde de barco tradicional o "klotok".
-            </div>
+            <div class="description">Noche a bordo de un "klotok"</div>
         </div>
     </script>
 </head>
@@ -229,22 +225,24 @@
     <button id="info" class="btn-overlay">
         <span class="material-icons raised">info</span>
     </button>
-    <!-- Modal window -->
-    <div id="locationModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-content__cover">
-                <img id="img" src="" alt="">
+    <!-- Modal location -->
+    <div id="modal-location" class="modal">
+        <div class="header">
+            <span class="btn-back material-icons raised">arrow_back</span>
+            <div class="title"></div>
+        </div>
+        <div class="main">
+            <div class="img-wrapper">
+                <img src="" alt="">
             </div>
-            <div class="modal-content__main">
-                <h5 id="title"></h5>
-                <div class="wrapper">
-                    <p id="description" class=""></p>
-                </div>
+            <div class="info-wrapper">
+                <div class="label">Información</div>
+                <div class="description"></div>
             </div>
-            <span id="close" class="material-icons">close</span>
         </div>
     </div>
-    <!-- Aside -->
-    <div id="modal-info"></div>
+    </div>
+    <!-- Modal info -->
+    <div id="modal-info" class="modal"></div>
 </body>
 </html>

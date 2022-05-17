@@ -37,7 +37,7 @@
                 "lat": -7.782447304764076,
                 "lng":  110.36846368463078,
                 "type": "hotel",
-                "description":"The Phoenix Hotel Yogyakarta lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"The Phoenix Hotel Yogyakarta - MGallery Collection",
                 "img": "assets/phoenix-hotel.jpg"
             }
         ]
@@ -77,10 +77,10 @@
             {
                 "id": 8,
                 "label": "Sarasvati Borobudur Hotel",
-                "lat": -7.606934016178857,
-                "lng":  -110.21055981855568,
+                "lat": -7.607342454827063,
+                "lng":  110.21047289035776,
                 "type": "hotel",
-                "description":"Sarasvati Borobudur Hotellorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Sarasvati Borobudur Hotel",
                 "img": "assets/sarasvati-hotel.jpg"
             }
         ]
@@ -119,11 +119,11 @@
             },
             {
                 "id": 12,
-                "label": "Semarang: Gumaya Towers 5* - Deluxe Room",
+                "label": "Gumaya Towers Hotel",
                 "lat": -6.9777307911666195,
                 "lng": 110.42015344798519,
                 "type": "hotel",
-                "description":"Semarang: Gumaya Towers 5* - Deluxe Roomi lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Gumaya Towers Hotel",
                 "img": "assets/semarang-hotel.jpg"
             }
         ]
@@ -162,20 +162,20 @@
             },
             {
                 "id": 16,
-                "label": "¿Taman Nasional Tanjung Puting?",
+                "label": "Parque Nacional Tanjung Puting",
                 "lat": -3.048116072007129,
                 "lng": 111.91752128216078,
                 "type": "forest",
-                "description":"Tanjung-puting lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El Parque Nacional de Tanjung Puting se encuentra en la isla de Borneo, en la provincia de Kalimantan Central. El parque es famoso por su conservación del orangután. Se compone de 415.040 hectáreas de tierras secas dipterocarpáceas, manglares y bosques costeros playa y bosques secundarios.A pesar de ser un parque nacional protegido, aproximadamente el 65% de bosque primario del parque está degradado. La pérdida de su hábitat natural es la mayor amenaza para la vida silvestre.El parque fue creado en la década de 1930 por el gobierno colonial holandés con el fin de proteger principalmente las poblaciones de orangután de Borneo (Pongo pygmaeus), mono narigudo (Nasalis larvatus) y rinoceronte de Sumatra (Dicerorhinus sumatrensis).En 1977 fue designado como Reserva de la Biosfera de la UNESCO y en 1982 como parque nacional por el Gobierno Indonesio.",
                 "img": "assets/tanjung-puting.jpeg"
             },
             {
                 "id": 17,
-                "label": "Noche a bordo de un Klotok (barco tradicional)",
+                "label": "Noche a bordo de un \"klotok\"",
                 "lat": -2.704238989199234, 
                 "lng": 111.90315944629556,
                 "type": "houseboat",
-                "description":"Klotok boat lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Un klotok es una pequeña embarcación que navega por los ríos de Indonesia. Recibe su nombre del ruido que hace el motor. En la isla de Kalimantán se usan para llevar a los turistas por la selva de Borneo, en el parque nacional de Tanjung Puting y ver los centros de rehabilitación de orangutanes.",
                 "img": "assets/klotok-boat.jpg"
             }
         ]
@@ -191,7 +191,7 @@
                 "lat": -2.7902110821293764,
                 "lng": 111.87825720174392,
                 "type": "forest",
-                "description":"Tanggui-camp lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El Parque Nacional Tanjung Puting fue fundado en 1970 como el primer lugar en Indonesia en convertirse en una Reserva para los orangutanes. Ahora hay tres lugares de rehabilitación de orangutanes, Tanjung Harapan, Pondok Tanggui y Camp Leakey. El Parque Nacional Tanjung Puting en Kalimantan Central Indonesia La isla de Borneo es el lugar para los orangutanes semisalvajes y salvajes en medio de la selva tropical principal. La flora y la fauna del Parque Nacional Tanjung Puting es una riqueza ecológica, desde manglares costeros, pantanos y bosques tropicales de tierras bajas hasta selvas densas. La vida silvestre es exótica, orangután, solo se encuentra en Sumatra y Borneo, junto con los monos narigudos endémicos y otros habitantes del bosque, incluidos el leopardo nublado, el mono hoja, el macaco, el oso hormiguero pangolín, el tarsero diminuto, lagartos, cocodrilos, pitones y más de 600 especies de aves como los más famosos Sun Birds, faisanes, Kakatua y Hornbills.",
                 "img": "assets/tanggui-camp.jpg"
             },
             {
@@ -200,16 +200,16 @@
                 "lat": -2.757202526989297, 
                 "lng":  111.94363216228776,
                 "type": "forest",
-                "description":"Leakey-camp lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El Parque Nacional Tanjung Puting fue fundado en 1970 como el primer lugar en Indonesia en convertirse en una Reserva para los orangutanes. Ahora hay tres lugares de rehabilitación de orangutanes, Tanjung Harapan, Pondok Tanggui y Camp Leakey. El Parque Nacional Tanjung Puting en Kalimantan Central Indonesia La isla de Borneo es el lugar para los orangutanes semisalvajes y salvajes en medio de la selva tropical principal. La flora y la fauna del Parque Nacional Tanjung Puting es una riqueza ecológica, desde manglares costeros, pantanos y bosques tropicales de tierras bajas hasta selvas densas. La vida silvestre es exótica, orangután, solo se encuentra en Sumatra y Borneo, junto con los monos narigudos endémicos y otros habitantes del bosque, incluidos el leopardo nublado, el mono hoja, el macaco, el oso hormiguero pangolín, el tarsero diminuto, lagartos, cocodrilos, pitones y más de 600 especies de aves como los más famosos Sun Birds, faisanes, Kakatua y Hornbills.",
                 "img": "assets/leakey-camp.jpg"
             },
             {
                 "id": 20,
-                "label": "Noche a bordo de un Klotok (barco tradicional)",
+                "label": "Noche a bordo de un Klotok",
                 "lat": -2.704238989199234, 
                 "lng": 111.90315944629556,
                 "type": "houseboat",
-                "description":"Klotok boat lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Un klotok es una pequeña embarcación que navega por los ríos de Indonesia. Recibe su nombre del ruido que hace el motor. En la isla de Kalimantán se usan para llevar a los turistas por la selva de Borneo, en el parque nacional de Tanjung Puting y ver los centros de rehabilitación de orangutanes.",
                 "img": "assets/klotok-boat.jpg"
             }
         ]
@@ -225,16 +225,16 @@
                 "lat": -2.7008304225587465, 
                 "lng":  111.66956125864924,
                 "type": "flight_takeoff",
-                "description":"Iskandar airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Iskandar airport",
                 "img": "assets/iskandar-airport.jpg"
             },
             {
                 "id": 22,
-                "label": "Aeropuerto Internacional Juanda - Surabaya",
+                "label": "Juanda International Airport",
                 "lat": -7.374945176428305,  
                 "lng":  112.78629379421304,
                 "type": "flight_land",
-                "description":"Surabaya airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Juanda International Airport",
                 "img": "assets/surabaya-airport.jpg"
             },
             {
@@ -243,7 +243,7 @@
                 "lat": -7.916364635929152, 
                 "lng":  112.98536846923825,
                 "type": "hotel",
-                "description":"Hotel Jiwa Jawa Bromo lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Hotel Jiwa Jawa Bromo",
                 "img": "assets/jiwajawa-hotel.jpg"
             }
         ]
@@ -259,7 +259,7 @@
                 "lat": -7.955991775229175, 
                 "lng":  112.99466595743309,
                 "type": "wallpaper",
-                "description":"Puncak-view lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"La gente dice que Puncak View B29 es un país por encima de las nubes y es que desde este pico puedes ver el monte Bromo, el monte Batok, el monte Raung y el gran monte Semeru.",
                 "img": "assets/puncak-view.jpg"
             },
             {
@@ -268,7 +268,7 @@
                 "lat": -7.9400831963465555,   
                 "lng":  112.95253159955611,
                 "type": "volcano",
-                "description":"Subida al cráter del volcán Bromo lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"En la zona oriental de la isla indonesia se encuentra el Parque Nacional de Bromo Tengger Semeru que está emplazado en una amplia región volcánica. En él se encuentra el monte Bromo, un volcán activo de más de 2.300 metros de altura. No es el más alto de la zona, pero sí se trata del más popular y visitado.Bromo se ha convertido en uno de los principales atractivos de la isla de Java y en uno de sus lugares más emblemáticos. En sus alrededores habitan los miembros de la tribu  Tengger, un pueblo javanés formado por descendientes del antiguo imperio Mayapajit, un reino que alcanzó su mayor esplendor en el siglo XIV. Actualmente, este grupo étnico hinduista tiene un papel activo en el mantenimiento y conservación del territorio en el que se encuentra el volcán Bromo. Su forma de vida es sencilla y su economía está basada en la agricultura.Ascender al cráter del volcán Bromo es toda una aventura que pondrá a prueba nuestra buena forma física, ya que debemos subir más de 200 escalones hasta la cumbre. En el camino de ascenso existen diferentes puntos de parada, dispuestos a modo de miradores, que nos invitan a contemplar la gran belleza del entorno. De fondo también alcanzamos a ver el monte Semeru, el pico más alto de Java.",
                 "img": "assets/bromo-crater.jpg"
             },
             {
@@ -277,7 +277,7 @@
                 "lat": -8.174944218640254, 
                 "lng":  114.25980874225704,
                 "type": "hotel",
-                "description":"Hotel Jiwa Jawa Ijen lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Hotel Jiwa Jawa Ijen",
                 "img": "assets/jiwajawaijen-hotel.jpg"
             }
         ]
@@ -293,7 +293,7 @@
                 "lat": -8.191803973666898,
                 "lng":  114.26557777891443,
                 "type": "holiday_village",
-                "description":"Hotel Jiwa Jawa Ijen lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"El tranquilo pueblo de Licin está situado en la regencia de Banyuwangi en Java Oriental, Indonesia. Está a 30 minutos en coche de la ciudad de Banyuwangi, el extremo más oriental de Java, y a una hora de las laderas de Kawah Ijen, el legendario volcán famoso por sus llamas de color azul eléctrico. A menudo se usa como base para hacer senderismo por el cráter más fascinante del mundo, y los extranjeros suelen pasar por él.",
                 "img": "assets/licin-village.jpg"
             },
             {
@@ -302,7 +302,7 @@
                 "lat": -8.062930957232398, 
                 "lng":  114.24605743144006,
                 "type": "volcano",
-                "description": "",
+                "description": "Localizado en el este de la isla de Java, en las cercanías de Banyuwangi, el Volcán Ijen es uno de los principales atractivos que tiene la isla y uno de los volcanes más importantes de Java. Atraídos por sus famosas Llamas Azules de su cráter, el Volcán Ijen recibe todos los años la visita de miles de personas. La ascensión como tal se compone de unos 40 minutos de caminata desde el campo base o acceso al volcán. Esta caminata no requiere mucho esfuerzo físico salvo en la parte final del tramo. Tras la llegada a la cima del volcán se puede observar el famoso cráter con aguas sulfurosas. Mucho de los turistas lo que buscan es bajar hasta abajo para intentar contemplar (sólo se pueden ver de noche) las famosa Llamás Azules. Estas Llamás Azules se forman por los vapores sulfurosos que emanan del cráter, de hecho el propio volcán es una mina al aire libre de azufre, con cientos de trabajadores, que realizan su labor en unas pésimas condiciones, sin equipo ni protecciones. Para poder visitar esta zona es importante hacerlo con una máscara anti gas pues el riesgo de intoxicaciones es alto.",
                 "img": "assets/ijen-crater.jpg"
             },
             {
@@ -311,7 +311,7 @@
                 "lat": -8.142067990312652,
                 "lng":  114.39959373939601,
                 "type": "directions_boat",
-                "description": "",
+                "description": "Puerto de Banyuwangui",
                 "img": "assets/banyuwangui-port.jpg"
             },
             {
@@ -320,16 +320,16 @@
                 "lat": -8.160753804993353,
                 "lng":  114.43684194587603,
                 "type": "directions_boat",
-                "description": "",
+                "description": "Puerto de Bali",
                 "img": "assets/gilimanuk-bali-port.jpg"
             },
             {
                 "id": 31,
-                "label": "Hotel Tejaprana Resort 4*",
+                "label": "Hotel Tejaprana Resort",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Tejaprana Resort",
                 "img": "assets/tejaprana-hotel.jpg"
             }
         ]
@@ -345,7 +345,7 @@
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Tejaprana Resort",
                 "img": "assets/tejaprana-hotel.jpg"
             }
         ]

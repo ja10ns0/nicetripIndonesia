@@ -61,37 +61,28 @@ function setMarkers(day) {
 
 }
 
+// Modal location
 function configLocationModal(param) {
   // Get the modal
-  var modal = document.getElementById("locationModal");
-
+  var modal = document.getElementById("modal-location");
   // Get the button that opens the modal
   var stages = document.querySelectorAll('.stage');
   stages.forEach((stage, day) => {
     var orderLocation = stage.getAttribute('data-order-location');
     stage.addEventListener('click', function(event) {
-      modal.style.display = "block";
+      modal.classList.toggle('visible');
+      let backBtn = modal.querySelector('span.btn-back');
+      backBtn.addEventListener('click',() => {
+        console.log('click location modal');
+        modal.classList.remove('visible');
+      });
       var location = arrDay[selectedDay]['locations'][orderLocation - 1];
-      modal.querySelector('#img').src = location['img'];
-      modal.querySelector('#title').innerHTML = location['label'];
-      modal.querySelector('#description').innerHTML = location['description'];
+      modal.querySelector('img').src = location['img'];
+      modal.querySelector('.title').innerHTML = location['label'];
+      modal.querySelector('.description').innerHTML = location['description'];
     })
-  })
+  });
 
-  // Get the <span> element that closes the modal
-  var span = modal.querySelector("#close");
-
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
 }
 
 function updateInfo(day, callback) {
@@ -144,19 +135,21 @@ document.getElementById('prev').addEventListener('click', function(){
 });
 
 
-// infoModal
+// Modal info
 let infoBtn = document.getElementById('info');
 infoBtn.addEventListener('click',() => {
-  console.log('selected day', selectedDay + 1);
+  const modalInfo = document.getElementById('modal-info');
+  configInfoModal(modalInfo, (selectedDay + 1));
+})
+
+function configInfoModal(modal, day) {
   var templateId = 'template-info-day-' + (selectedDay + 1); 
   var template = document.getElementById(templateId);
   var templateHtml = template.innerHTML;
-  console.log('s',templateHtml);
-  var modalInfo = document.getElementById('modal-info');
-  modalInfo.innerHTML = templateHtml;
-  modalInfo.classList.toggle('visible');
-  let backBtn = document.querySelector('span.btn-back');
+  modal.innerHTML = templateHtml;
+  modal.classList.toggle('visible');
+  let backBtn = modal.querySelector('span.btn-back');
   backBtn.addEventListener('click',() => {
-    modalInfo.classList.toggle('visible');
+    modal.classList.remove('visible');
   });
-})
+}
