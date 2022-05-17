@@ -41,7 +41,18 @@ function setMarkers(day) {
       label: '' + (i + 1)
     });
     marker.addListener("click", () => {
-      configLocationModal();
+      console.log('dsd');
+      // Get the modal
+      var modal = document.getElementById("modal-location");
+      modal.classList.toggle('visible');
+      let backBtn = modal.querySelector('span.btn-back');
+      backBtn.addEventListener('click',() => {
+        console.log('click location modal');
+        modal.classList.remove('visible');
+      });
+      modal.querySelector('img').src = location['img'];
+      modal.querySelector('.title').innerHTML = location['label'];
+      modal.querySelector('.description').innerHTML = location['description'];
     });
     bounds.extend(new google.maps.LatLng(location));    
     markers.push(marker);
@@ -55,6 +66,8 @@ function setMarkers(day) {
 
 // Modal location
 function configLocationModal() {
+  console.log('aaaaa');
+
   // Get the modal
   var modal = document.getElementById("modal-location");
   // Get the button that opens the modal
