@@ -341,7 +341,7 @@
         "locations": [
             {
                 "id": 32,
-                "label": "Hotel Tejaprana Resort 4*",
+                "label": "Hotel Tejaprana Resort",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
@@ -361,7 +361,7 @@
                 "lat": -8.541511284480464,
                 "lng":  115.17261144793842,
                 "type": "temple_hindu",
-                "description": "",
+                "description": "El Templo Taman Ayun fue fundado en el siglo XVII y está situado en el Pueblo de Mengwi que hasta 1891 fue la sede de un poderoso que se remonta a la Dinastía Gelgel. Está rodeado por un foso que parece un santuario ajardinado, lo que explica el término taman o jardín. El templo es un penyawangan o lugar para rendir culto a otros sitios sagrados.",
                 "img": "assets/taman-ayun.jpg"
             },
             {
@@ -370,7 +370,7 @@
                 "lat": -8.37001278643232,
                 "lng": 115.13137199807699,
                 "type": "wallpaper",
-                "description": "",
+                "description": "Las terrazas arrozales de Jatiluwih abarcan todo el paisaje de Bali Meridional. El nombre de Jatiluwih está compuesto por dos palabras, Jati que significa realmente y Luwih que significa bello, bueno, especial, hermosa. Sin la menor duda, este lugar no solamente tiene un nombre hermoso sino que su hermosura, realmente se refleja en su paisaje.",
                 "img": "assets/jatiluwih.jpg"
             },
             {
@@ -379,7 +379,7 @@
                 "lat": -8.274862180027393,
                 "lng":  115.16686631342125,
                 "type": "temple_hindu",
-                "description": "",
+                "description": "Famoso templo que se levanta en un pequeño promontorio situado en la orilla de Lago de Beratancon con el lago y la montaña como telón de fondo. Es sin lugar a duda, uno de lostemplos más fotogénicos de todo Indonesia. Este templo está dedicado a Dewi Danu,diosa de aguas.",
                 "img": "assets/ulun-danu.jpg"
             },
             {
@@ -388,16 +388,16 @@
                 "lat": -8.620893615363547,
                 "lng":   115.08689970760427,
                 "type": "temple_hindu",
-                "description": "",
+                "description": "Desgajados de la tierra sobre un pedestal de piedra esculpido por las mareas entrantes, las solitarias torres negras del Tanah Lot y los penachos de follaje derramados por los precipicios recuerdan la delicadeza de la pintura china. El Pura Tanah Lot o el Templo de Tierra en Medio del Mar fue construido en el siglo XVI.",
                 "img": "assets/tanah-lot.jpg"
             },
             {
                 "id": 37,
-                "label": "Hotel Tejaprana Resort 4*",
+                "label": "Hotel Tejaprana Resort",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Tejaprana Resort",
                 "img": "assets/tejaprana-hotel.jpg"
             }
         ]
@@ -413,7 +413,7 @@
                 "lat": -8.433828037727798,
                 "lng":  115.27927835574957,
                 "type": "wallpaper",
-                "description": "",
+                "description": "Famosas por sus hermosas escenas de arrozales que involucran el subak (sistema de irrigación cooperativa balinesa tradicional), que según la historia, fue transmitido por un venerado hombre santo llamado Rsi Markandeya en el siglo VIII. Tegallalang forma los tres paisajes escalonados más espectaculares. Las terrazas de arroz Tegallalang por sí solas ofrecen una perspectiva panorámica que se extiende ante ti y a lo lejos en las laderas del valle.",
                 "img": "assets/tegalalang.jpg"
             },
             {
@@ -422,7 +422,7 @@
                 "lat": -8.415512754311544,
                 "lng":  115.31518613087853,
                 "type": "temple_hindu",
-                "description": "",
+                "description": "Un escenario legendario de una historia tradicional sobre el bien contra el mal. El manantial Tirta Empul alimenta varios baños de purificación, piscinas y estanques de peces que rodean el perímetro exterior y fluyen hacia el río Tukad Pakerisan.",
                 "img": "assets/tirta-empul.jpg"
             },
             {
@@ -431,7 +431,7 @@
                 "lat": -8.441718505015237,
                 "lng": 115.35988582691333,
                 "type": "temple_hindu",
-                "description": "",
+                "description": "Antiguo complejo de templos hindúes con características arquitectónicas únicas. Las escaleras que se extienden desde el suelo hasta el patio del templo son figuras míticas de animales de piedra arenisca y estatuas folclóricas balinesas y también el vestíbulo central. Las paredes del templo también están adornadas con platos chinos de porcelana, que son un tributo a las relaciones históricas entre el reino local de Bali y China.",
                 "img": "assets/kehen-temple.jpg"
             },
             {
@@ -440,16 +440,16 @@
                 "lat": -8.42203503126277,
                 "lng":  115.35929526924077,
                 "type": "holiday_village",
-                "description": "",
+                "description": "Pueblo que logró preservar su bosque de bambú de 75 hectáreas ubicado en la parte norte del pueblo. Los miembros de esta aldea tienen un fuerte compromiso con el sistema de \"ayahan desa\", una filosofía comprometida con el respeto de la tierra en la que se asienta la aldea.",
                 "img": "assets/penglipuran-village.jpg"
             },
             {
                 "id": 42,
-                "label": "Hotel Tejaprana Resort 4*",
+                "label": "Hotel Tejaprana Resort",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Tejaprana Resort",
                 "img": "assets/tejaprana-hotel.jpg"
             }
         ]
@@ -457,11 +457,11 @@
     {
         "order": 12,
         "date": "10 de Junio",
-        "island": " Bali",
+        "island": "Isla de Bali",
         "locations": [
             {
                 "id": 43,
-                "label": "Hotel Tejaprana Resort 4*",
+                "label": "Hotel Tejaprana Resort",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
@@ -477,7 +477,7 @@
         "locations": [
             {
                 "id": 44,
-                "label": "Hotel Tejaprana Resort 4*",
+                "label": "Hotel Tejaprana Resort",
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
@@ -570,7 +570,7 @@
         "locations": [
             {
                 "id": 52,
-                "label": "Maison Aurelia 4*",
+                "label": "Maison Aurelia",
                 "lat": -8.695404855754841,
                 "lng": 115.26354696807951,
                 "type": "hotel",
