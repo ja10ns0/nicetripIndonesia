@@ -98,7 +98,9 @@
     .header {
       display: flex;
       align-items: center;
-      border-bottom: 2px solid red;
+      height: 66px;
+      padding: 0 6px;
+      border-bottom: 1px solid #999;
       span {
         height: 48px;
         width: 48px;
@@ -109,9 +111,17 @@
       .title {
         font-size: 20px;
         margin-left: 12px;
+        .day {
+          font-size: 14px;
+          color: #999;
+        }
+        .island {
+          font-weight: bold;
+        }
       }
     }
     .main {
+      padding: 20px 16px;
       .label {
         font-size: 18px;
       }
@@ -120,6 +130,5 @@
         margin: 4px 0 12px 0;
         text-align: justify;
       }
-      padding: 16px;
     }
   }
