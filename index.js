@@ -9,7 +9,7 @@ window.initMap = function() {
   // Initilize map centered at Jakarta
   map = new google.maps.Map(document.getElementById("map"), {
     center: arrDay[0]['locations'][0],
-    zoom: 6,
+    zoom: 2,
     disableDefaultUI: true
   });
 
@@ -66,8 +66,6 @@ function setMarkers(day) {
 
 // Modal location
 function configLocationModal() {
-  console.log('aaaaa');
-
   // Get the modal
   var modal = document.getElementById("modal-location");
   // Get the button that opens the modal
@@ -129,6 +127,7 @@ function moveDay(param) {
   selectedDay = selectedDay + param;
   // Call set markers to re-add markers
   setMarkers(arrDay[selectedDay]);
+
 }
 
 // Bind event listener on button to reload markers
@@ -139,7 +138,6 @@ document.getElementById('prev').addEventListener('click', function(){
   moveDay(-1);
 });
 
-
 // Modal info
 let infoBtn = document.getElementById('info');
 infoBtn.addEventListener('click',() => {
@@ -148,6 +146,7 @@ infoBtn.addEventListener('click',() => {
 })
 
 function configInfoModal(modal, day) {
+  console.log('f', (selectedDay + 1 ));
   var templateId = 'template-info-day-' + (selectedDay + 1); 
   var template = document.getElementById(templateId);
   var templateHtml = template.innerHTML;

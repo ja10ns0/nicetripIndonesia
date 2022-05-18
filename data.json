@@ -10,7 +10,7 @@
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
                 "type": "flight_takeoff",
-                "description":"Jakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Aeropuerto de Jakarta",
                 "img": "assets/jakarta-airport.jpg" 
             },
             {
@@ -19,7 +19,7 @@
                 "lat": -7.7956781393307955,
                 "lng": 110.37015555608066,
                 "type": "flight_land",
-                "description":"Yogjakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Aeropuerto de Yogjakarta",
                 "img": "assets/yogjakarta-airport.jpg" 
             },
             {
@@ -139,7 +139,7 @@
                 "lat": -6.977358041848934,
                 "lng": 110.3773177525397,
                 "type": "flight_takeoff",
-                "description":"Semarang airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Aeropuerto de Semarang",
                 "img": "assets/semarang-airport.jpg"
             },
             {
@@ -148,7 +148,7 @@
                 "lat": -2.7008304225587465, 
                 "lng":  111.66956125864924,
                 "type": "flight_land",
-                "description":"Iskandar airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Aeropuerto de Iskandar",
                 "img": "assets/iskandar-airport.jpg"
             },
             {
@@ -157,7 +157,7 @@
                 "lat": -2.739347242200113,
                 "lng": 111.7285905560935,
                 "type": "directions_boat",
-                "description":"Kumai port lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"PUerto de Kumai",
                 "img": "assets/kumai-port.jpg"
             },
             {
@@ -225,7 +225,7 @@
                 "lat": -2.7008304225587465, 
                 "lng":  111.66956125864924,
                 "type": "flight_takeoff",
-                "description":"Iskandar airport",
+                "description":"Aeropuerto de Iskandar",
                 "img": "assets/iskandar-airport.jpg"
             },
             {
@@ -234,7 +234,7 @@
                 "lat": -7.374945176428305,  
                 "lng":  112.78629379421304,
                 "type": "flight_land",
-                "description":"Juanda International Airport",
+                "description":"Aeropuerto Juanda International",
                 "img": "assets/surabaya-airport.jpg"
             },
             {
@@ -465,7 +465,7 @@
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Tejaprana Resort",
                 "img": "assets/tejaprana-hotel.jpg"
             }
         ]
@@ -481,7 +481,7 @@
                 "lat": -8.410779600722787,
                 "lng":  115.2697622801923,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Tejaprana Resort",
                 "img": "assets/tejaprana-hotel.jpg"
             }
         ]
@@ -489,15 +489,15 @@
     {
         "order": 14,
         "date": "12 de Junio",
-        "island": "Isla de Nusa Penida",
+        "island": "Nusa Penida",
         "locations": [
             {
                 "id": 45,
-                "label": "Puerto de Benoa(Denpasar)",
+                "label": "Puerto de Benoa (Denpasar)",
                 "lat": -8.737327060121828,
                 "lng":  115.21256169762106,
                 "type": "directions_boat",
-                "description": "",
+                "description": "Puerto de Benoa (Denpasar)",
                 "img": "assets/benoa-port.jpg"
             },
             {
@@ -506,7 +506,7 @@
                 "lat": -8.684153112035068,
                 "lng":  115.48289398270795,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Adiwana Warnakali",
                 "img": "assets/adiwana-hotel.jpg"
             }
         ]
@@ -514,7 +514,7 @@
     {
         "order": 15,
         "date": "13 de Junio",
-        "island": " Nusa Penida",
+        "island": "Nusa Penida",
         "locations": [
             {
                 "id": 47,
@@ -522,7 +522,7 @@
                 "lat": -8.733439350316624,
                 "lng":  115.44898017348508,
                 "type": "landslide",
-                "description": "",
+                "description": "Angel’s Billabong es un paraíso natural en forma de piscina natural donde poder bañarse.",
                 "img": "assets/angels-beach.jpg"
             },
             {
@@ -531,7 +531,7 @@
                 "lat": -8.732667322186591,
                 "lng": 115.45080988771343,
                 "type": "beach_access",
-                "description": "",
+                "description": "Pequeña bahía que antiguamente era una cueva y ha ido perdiendo el techo con el tiempo. No podemos acceder por tierra pero la vista desde arriba es preciosa y con un poco de suerte, se pueden ver manta rayas gigantes nadando en la superficie.",
                 "img": "assets/broken1-beach.jpg"
             },
             {
@@ -540,7 +540,7 @@
                 "lat": -8.750142602578734,
                 "lng": 115.47261106921621,
                 "type": "beach_access",
-                "description": "",
+                "description": "Una de las playas más famosas y fotografiadas de la isla con sus precipicios y la montaña con forma de mano.",
                 "img": "assets/kelingking-beach.jpg"
             },
             {
@@ -549,7 +549,7 @@
                 "lat": -8.715370879865969,
                 "lng": 115.45918936921612,
                 "type": "beach_access",
-                "description": "",
+                "description": "Playa de arena blanca y aguas turquesas donde poder bañarse y practicar snorkeling.",
                 "img": "assets/crystal-beach.jpg"
             },
             {
@@ -586,12 +586,12 @@
         "locations": [
             {
                 "id": 53,
-                "label": "¿?",
-                "lat": -8.488310499844845,
-                "lng": 119.8874530557218,
+                "label": "Aeropuerto de Denpasar",
+                "lat": -8.74407253342249,
+                "lng": 115.16751279023997,
                 "type": "flight_takeoff",
-                "description": "",
-                "img": ""
+                "description": "Aeropuerto de Denpasar",
+                "img": "assets/dps-aeropuerto.jpg"
             },
             {
                 "id": 54,
@@ -599,7 +599,7 @@
                 "lat": -8.488310499844845,
                 "lng": 119.8874530557218,
                 "type": "flight_land",
-                "description": "",
+                "description": "Aeropuerto de Komodo",
                 "img": "assets/komodo-airport.jpg"
             },
             {
@@ -608,7 +608,7 @@
                 "lat": -8.491715342319099,
                 "lng":  119.87562628691695,
                 "type": "directions_boat",
-                "description": "",
+                "description": "Nuestro guía nos estará esperando para embarcar en el barco tradicional con el que navegaremos los dos días siguientes.",
                 "img": "assets/labuan-port.jpg"
             },
             {
@@ -617,7 +617,7 @@
                 "lat": -8.547912430885166,
                 "lng":  119.81490385802964,
                 "type": "sailing",
-                "description": "",
+                "description": "Snorkeling en Isla Menjarite",
                 "img": "assets/menjarite-island.jpg"
             },
             {
@@ -626,7 +626,7 @@
                 "lat": -8.61054050586639,
                 "lng":  119.48635467116385,
                 "type": "sailing",
-                "description": "",
+                "description": "Nos acercaremos a la Isla Kalong o del zorro volador donde podremos ver los increíbles miles de zorros voladores que salen de los manglares a la hora del atardecer y contemplar la hermosa puesta de sol desde el barco.",
                 "img": "assets/kalong2-island.jpg"
             },
             {
@@ -635,7 +635,7 @@
                 "lat": -8.61054050586639,
                 "lng":  119.48635467116385,
                 "type": "houseboat",
-                "description": "",
+                "description": "Noche en barco tradicional",
                 "img": "assets/komodo-boat.jpg"
             }
         ]
@@ -651,7 +651,7 @@
                 "lat": -8.651311316927162,
                 "lng": 119.58671910826523,
                 "type": "hiking",
-                "description": "",
+                "description": "En la Isla de Padar haremos el trekking que nos llevará directos a la famosa vista de las tres bahías.",
                 "img": "assets/padar-island.jpg"
             },
             {
@@ -660,7 +660,7 @@
                 "lat": -8.580021715786586,
                 "lng": 119.44140453637503,
                 "type": "pets",
-                "description": "",
+                "description": "Después de registrarse, haremos un trekking suave para ver el gigante rizard/dragón de komodo y otros animales salvajes como: el ciervo de Timor, jabalí, pollo salvaje y muchas especies de aves tropicales.",
                 "img": "assets/pn-komodo.jpg"
             },
             {
@@ -669,7 +669,7 @@
                 "lat": -8.653879843526756,
                 "lng":  119.55975708089674,
                 "type": "sailing",
-                "description": "",
+                "description": "Playa de arena rosa donde relajarse y practicar snorkeling disfrutando de su arrecife de coral virgen y sus peces de colores.",
                 "img": "assets/pink-beach.jpg"
             },
             {
@@ -678,7 +678,7 @@
                 "lat": -8.547716241381739,
                 "lng":  119.61749474234395,
                 "type": "sailing",
-                "description": "",
+                "description": "Punto de avistamiento de manta rayas y si las condiciones lo permiten, podremos nadar y bucear junto a ellas.",
                 "img": "assets/mantapoint-beach.jpg"
             },
             {
@@ -703,16 +703,16 @@
                 "lat": -8.487847730477402,
                 "lng": 119.88732007812357,
                 "type": "flight_takeoff",
-                "description": "",
+                "description": "Aeropuerto de Komodo",
                 "img": "assets/komodo-airport.jpg"
             },
             {
                 "id": 64,
-                "label": "Aeropuerto de Lombok(vía Denpasar)",
+                "label": "Aeropuerto de Lombok (vía Denpasar)",
                 "lat": 116.10018111923976,
                 "lng": 116.10018111923976,
                 "type": "flight_land",
-                "description": "",
+                "description": "Aeropuerto de Lombok (vía Denpasar)",
                 "img": "assets/lombok-airport.jpg"
             },
             {
@@ -721,16 +721,16 @@
                 "lat": -8.363447962147617,
                 "lng":  116.08313047966512,
                 "type": "directions_boat",
-                "description": "",
+                "description": "Puerto de Gili Air",
                 "img": "assets/giliair-port.jpg"
             },
             {
                 "id": 66,
-                "label": "Akasia Villa – One Bedroom Pool Villa",
+                "label": "Hotel Akasia Villa",
                 "lat": -8.35388321302648,
                 "lng":  116.08312240047536,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Akasia Villa",
                 "img": "assets/akasia-hotel.jpg"
             }
         ]
@@ -742,11 +742,11 @@
         "locations": [
             {
                 "id": 67,
-                "label": "Akasia Villa – One Bedroom Pool Villa",
+                "label": "Hotel Akasia Villa",
                 "lat": -8.35388321302648,
                 "lng":  116.08312240047536,
                 "type": "hotel",
-                "description": "",
+                "description": "Hotel Akasia Villa",
                 "img": "assets/akasia-hotel.jpg"
             }
         ]
@@ -762,7 +762,7 @@
                 "lat": -8.363447962147617,
                 "lng":  116.08313047966512,
                 "type": "directions_boat",
-                "description": "",
+                "description": "Puerto de Gili Air",
                 "img": "assets/giliair-port.jpg"
             },
             {
@@ -771,7 +771,7 @@
                 "lat": 116.10018111923976,
                 "lng": 116.10018111923976,
                 "type": "flight_takeoff",
-                "description": "",
+                "description": "Aeropuerto de Lombok",
                 "img": "assets/lombok-airport.jpg"
             },
             {
@@ -780,7 +780,7 @@
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
                 "type": "flight_land",
-                "description":"Jakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Jakarta Airport",
                 "img": "assets/jakarta-airport.jpg"
             },
             {
@@ -789,7 +789,7 @@
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
                 "type": "flight_takeoff",
-                "description":"Jakarta Airport lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ligula vitae neque malesuada iaculis. Cras semper tempor mi vel viverra. Vestibulum consectetur at tortor ut lacinia. Donec sit amet tincidunt est, ultrices lacinia dui. Aliquam tempor eros vitae odio finibus placerat nec maximus est. Nulla facilisis, lacus dapibus eleifend tempor, felis ex aliquam mauris, et mattis magna ante eu lectus. Maecenas at leo ornare, consequat nulla sed, fermentum erat. Maecenas iaculis porta leo ac posuere.",
+                "description":"Jakarta Airport",
                 "img": "assets/jakarta-airport.jpg"
             },
             {
@@ -798,7 +798,7 @@
                 "lat": 43.370980721721374, 
                 "lng":  -8.39587754831988,
                 "type": "hotel",
-                "description": "",
+                "description": "¡Rumahku!, que traducido al castellano significa ¡Hogar, dulce hogar!",
                 "img": "assets/corunna.jpg"
             }
         ]
