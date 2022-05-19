@@ -157,3 +157,22 @@ function configInfoModal(modal, day) {
     modal.classList.remove('visible');
   });
 }
+
+// Modal Flights
+let flightsBtn = document.getElementById('flights');
+flightsBtn.addEventListener('click',() => {
+  const modalFlights = document.getElementById('modal-flights');
+  configFlightsModal(modalFlights);
+})
+
+function configFlightsModal(modal) {
+  var templateId = 'template-flights'; 
+  var template = document.getElementById(templateId);
+  var templateHtml = template.innerHTML;
+  modal.innerHTML = templateHtml;
+  modal.classList.toggle('visible');
+  let backBtn = modal.querySelector('span.btn-back');
+  backBtn.addEventListener('click',() => {
+    modal.classList.remove('visible');
+  });
+}
