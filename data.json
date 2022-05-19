@@ -6,20 +6,20 @@
         "locations": [
             {
                 "id": 1,
-                "label": "Jakarta Airport",
+                "label": "Aeropuerto de Jakarta",
                 "lat": -6.19138433712882, 
                 "lng": 106.8440013947889,
                 "type": "flight_takeoff",
-                "description":"Aeropuerto de Jakarta",
+                "description":"Aeropuerto Internacional Soekarno-Hatta en Jakarta",
                 "img": "assets/jakarta-airport.jpg" 
             },
             {
                 "id": 2,
-                "label": "Yogjakarta Airport",
+                "label": "Aeropuerto de Yogyakarta",
                 "lat": -7.7956781393307955,
                 "lng": 110.37015555608066,
                 "type": "flight_land",
-                "description":"Aeropuerto de Yogjakarta",
+                "description":"Aeropuerto Internacional de Yogyakarta",
                 "img": "assets/yogjakarta-airport.jpg" 
             },
             {
@@ -135,20 +135,20 @@
         "locations": [
             {
                 "id": 13,
-                "label": "¿Semarang Airport?",
+                "label": "Aeropuerto de Semarang",
                 "lat": -6.977358041848934,
                 "lng": 110.3773177525397,
                 "type": "flight_takeoff",
-                "description":"Aeropuerto de Semarang",
+                "description":"Aeropuerto Internacional Jenderal Ahmad Yani en Semarang",
                 "img": "assets/semarang-airport.jpg"
             },
             {
                 "id": 14,
-                "label": "¿Iskandar Airport?",
+                "label": "Aeropuerto de Pangkalan Bun",
                 "lat": -2.7008304225587465, 
                 "lng":  111.66956125864924,
                 "type": "flight_land",
-                "description":"Aeropuerto de Iskandar",
+                "description":"Aeropuerto de Iskandar en Pangkalan Bun",
                 "img": "assets/iskandar-airport.jpg"
             },
             {
@@ -221,20 +221,20 @@
         "locations": [
             {
                 "id": 21,
-                "label": "¿Iskandar Airport?",
+                "label": "Aeropuerto de Pangkalan Bun",
                 "lat": -2.7008304225587465, 
                 "lng":  111.66956125864924,
                 "type": "flight_takeoff",
-                "description":"Aeropuerto de Iskandar",
+                "description":"Aeropuerto de Iskandar en Pangkalan Bun",
                 "img": "assets/iskandar-airport.jpg"
             },
             {
                 "id": 22,
-                "label": "Juanda International Airport",
+                "label": "Aeropuerto de Surabaya",
                 "lat": -7.374945176428305,  
                 "lng":  112.78629379421304,
                 "type": "flight_land",
-                "description":"Aeropuerto Juanda International",
+                "description":"Aeropuerto Internacional Juanda en Surabaya",
                 "img": "assets/surabaya-airport.jpg"
             },
             {
@@ -590,16 +590,16 @@
                 "lat": -8.74407253342249,
                 "lng": 115.16751279023997,
                 "type": "flight_takeoff",
-                "description": "Aeropuerto de Denpasar",
+                "description": "Aeropuerto Internacional Ngurah Rai en Denpasar",
                 "img": "assets/dps-aeropuerto.jpg"
             },
             {
                 "id": 54,
-                "label": "Aeropuerto de Komodo",
+                "label": "Aeropuerto de Labuan Bajo",
                 "lat": -8.488310499844845,
                 "lng": 119.8874530557218,
                 "type": "flight_land",
-                "description": "Aeropuerto de Komodo",
+                "description": "Aeropuerto Internacional de Komodo en Labuan Bajo",
                 "img": "assets/komodo-airport.jpg"
             },
             {
@@ -699,21 +699,21 @@
         "locations": [
             {
                 "id": 63,
-                "label": "Aeropuerto de Komodo",
+                "label": "Aeropuerto de Labuan Bajo",
                 "lat": -8.487847730477402,
                 "lng": 119.88732007812357,
                 "type": "flight_takeoff",
-                "description": "Aeropuerto de Komodo",
+                "description": "Aeropuerto Internacional de Komodo en Labuan Bajo",
                 "img": "assets/komodo-airport.jpg"
             },
             {
                 "id": 64,
-                "label": "Aeropuerto de Lombok (vía Denpasar)",
-                "lat": 116.10018111923976,
-                "lng": 116.10018111923976,
+                "label": "Aeropuerto de Denpasar",
+                "lat": -8.74407253342249,
+                "lng": 115.16751279023997,
                 "type": "flight_land",
-                "description": "Aeropuerto de Lombok (vía Denpasar)",
-                "img": "assets/lombok-airport.jpg"
+                "description": "Aeropuerto Internacional Ngurah Rai en Denpasar",
+                "img": "assets/dps-aeropuerto.jpg"
             },
             {
                 "id": 65,
@@ -768,10 +768,10 @@
             {
                 "id": 69,
                 "label": "Aeropuerto de Lombok",
-                "lat": 116.10018111923976,
-                "lng": 116.10018111923976,
+                "lat": -8.76171101563263,
+                "lng": 116.27348685971508,
                 "type": "flight_takeoff",
-                "description": "Aeropuerto de Lombok",
+                "description": "Aeropuerto Internacional Zainuddin Abdul Madjid en Lombok",
                 "img": "assets/lombok-airport.jpg"
             },
             {
